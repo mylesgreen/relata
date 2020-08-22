@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from './components/NavigationBar/NavigationBar';
 import Footer from './components/Footer/Footer';
 import Page2 from './components/Page2/Page2';
+import HeroVideo from './components/HeroVideo';
 import $ from 'jquery';
 
 
@@ -14,7 +15,6 @@ const App = () => {
     <React.Fragment>
     <Navbar />
       <Router>
-
 
         {/* //////////////////////////////////////////////////////////////////////// */}
         <Switch>
