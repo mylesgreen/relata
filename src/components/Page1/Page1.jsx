@@ -53,6 +53,7 @@ const About = () => {
         style={{backgroundColor: '#f5f5f5', backgroundImage: 'url("https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-light-paper-texture-textured-background-image_260958.jpg")'}}
         >
 
+        
         {/* <div className="row title">
             <h2>What We <span className="gold">Do</span></h2>
           </div>
