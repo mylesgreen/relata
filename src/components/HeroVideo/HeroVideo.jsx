@@ -21,10 +21,10 @@ const HeroVideo = () => {
 
         
         <source 
-          src="https://relatacomm.files.wordpress.com/2020/08/vid_20200530_2231157291.mp4" type="video/mp4" />
+          src="https://relatacomm.files.wordpress.com/2020/08/go-delhi-go-_-delhi-in-two-minutes-_-hyperlapse1080p.mp4" type="video/mp4" />
         
         <source 
-          src="https://videos.files.wordpress.com/9k8dPvp4/vid_20200530_2231157291_fmt1.ogv" type="video/ogg" />
+          src="https://videos.files.wordpress.com/WjJfjrBi/cities-from-around-the-world-_-hyperlapse-timelapse-_-4k720p_fmt1.ogv" type="video/ogg" />
         Your browser does not support the video tag. I suggest you upgrade your browser.
 
         </video>     
