@@ -3,8 +3,7 @@ import './page1.css';
 import { Container } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 import HeroVideo from '../HeroVideo';
-
-
+import QuotesCarousel from '../QuotesCarousel';
 
 
 
@@ -20,13 +19,13 @@ const About = () => {
 
         <div id="default-version" className="services">
         <section className="lazyload padding-top-normal padding-bottom-normal  section-type-column" 
-        data-bg="https://relata.us/" 
-        style={{backgroundColor: '#fff', 
-            backgroundImage: 'url("https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-light-paper-texture-textured-background-image_260958.jpg")'}} id="section-about">
+        data-bg="" 
+        style={{backgroundColor: '#fff',}} 
+            id="section-about">
           <div className="container">
             <div className="row">
               <div className="twelve columns col">
-                <div className="at-above-post-homepage addthis_tool" data-url="https://relata.us/" />
+                <div className="at-above-post-homepage addthis_tool" data-url="" />
                {/*  <div className="row title">
                   <h2>WHO WE <span className="gold">ARE</span></h2>
                 </div> */}
@@ -49,24 +48,18 @@ const About = () => {
         <section 
         className="lazyload padding-top-normal padding-bottom-normal  bg-image-cover section-type-services" 
         id="section-services" 
-        data-bg="https://www.luminatemarketing.com/wp-content/uploads/2014/06/watermark-bottom.png" 
-        style={{backgroundColor: '#f5f5f5', backgroundImage: 'url("https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-light-paper-texture-textured-background-image_260958.jpg")'}}
-        >
+        style={{
+          backgroundColor: '#f5f5f5'
+        }}>
 
-        
-        {/* <div className="row title">
-            <h2>What We <span className="gold">Do</span></h2>
-          </div>
-        */}
-
-
-          <div className="row section-content">
+      
+      <div className="row section-content">
         <div className="twelve col center text-center">
         <h2 style={{fontWeight: '500', fontSize: '125%'}}>WHAT WE <span className="gold">DO</span></h2>
-          <div className="section-content-wrap"><div className="at-above-post-homepage addthis_tool" data-url="https://www.luminatemarketing.com/" />
+          <div className="section-content-wrap"><div className="at-above-post-homepage addthis_tool"/>
             <div className="row  homepage-services">
               <div className="service">
-                <span className=""/><i class="fas fa-question-circle"></i><p />
+                <i class="fas fa-comments"></i><p />
                 <h3 className="service-head">Social Media Marketing</h3>
                 <hr />
                 <div className="sub-service">
@@ -75,7 +68,7 @@ const About = () => {
                   Calendars + Scheduling</div>
               </div>
               <div className="service">
-                <span className="" /><i class="fas fa-question"></i><p />
+                <i class="fas fa-bullhorn"></i><p />
                 <h3 className="service-head">Social Advertising</h3>
                 <hr />
                 <div className="sub-service">
@@ -85,16 +78,17 @@ const About = () => {
                 </div>
               </div>
               <div className="service">
-                <span className="" /><i class="fas fa-question-circle"></i><p />
+                <i class="fas fa-user-graduate"></i><p />
                 <h3 className="service-head">Social Media Training</h3>
                 <hr />
-                <div className="sub-service" style={{color: 'red'}}>
-                  Where are,<br />
-                  my focken...<br />
-                  icons!</div>
+                <div className="sub-service">
+                Skill Up Your Team<br />
+                Facilitate More Content<br />
+                Customized Instructing <br />
+                </div>
               </div>
               <div className="service">
-                <span className=""/><i class="fas fa-question"></i><p />
+               <i class="fas fa-search-dollar"></i><p />
                 <h3 className="service-head">Social Media Marketing</h3>
                 <hr />
                 <div className="sub-service">Organic Posting + Ads<br />
@@ -102,7 +96,9 @@ const About = () => {
                   Post Writing &amp; Designs</div>
               </div>
               <div className="service">
-                <span className=""/><i class="fas fa-question-circle"></i><p />
+               
+                <img className="live-stream-icon" src="https://relatacomm.files.wordpress.com/2020/08/live-stream-broadcasting-blank.png"/>
+                <p />
                 <h3 className="service-head">Live Stream Broadcasting</h3>
                 <hr />
                 <div className="sub-service">
@@ -111,9 +107,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="row padding-top-normal" style={{textAlign: 'center'}}>
-              <a className="small-btn btn" href="/services/">View All</a>
-            </div>
+            <a className="small-btn btn" href="/services">View All</a>
             <p>{/* AddThis Advanced Settings above via filter on the_content */}{/* AddThis Advanced Settings below via filter on the_content */}{/* AddThis Advanced Settings generic via filter on the_content */}{/* AddThis Share Buttons above via filter on the_content */}{/* AddThis Share Buttons below via filter on the_content */}</p>
             <div className="at-below-post-homepage addthis_tool" data-url="https://www.relata.us/" />
             <p>{/* AddThis Share Buttons generic via filter on the_content */}</p>
@@ -123,12 +117,14 @@ const About = () => {
       </section>
       </div>
 
+      <QuotesCarousel/>
 
 
 
 
 
 
+ {/* 
       <section className="lazyload padding-top-large padding-bottom-normal text-color-light section-type-column" data-bg="https://amtrakdowneaster.com/sites/default/files/station-images/stations_boston.jpg" 
       style={{backgroundColor: '#fff', 
       backgroundImage: 'url("https://wallpaperaccess.com/full/188673.jpg")'}} id="section-stats">
@@ -167,13 +163,15 @@ const About = () => {
                 <div className="sub-num">Ipsum si et<br />dolor, bla bla bla</div>
               </div>
             </div>
-            {/* AddThis Advanced Settings above via filter on the_content */}{/* AddThis Advanced Settings below via filter on the_content */}{/* AddThis Advanced Settings generic via filter on the_content */}{/* AddThis Share Buttons above via filter on the_content */}{/* AddThis Share Buttons below via filter on the_content */}
+            
             <div className="at-below-post-homepage addthis_tool" data-url="https://www.luminatemarketing.com/" />
-            {/* AddThis Share Buttons generic via filter on the_content */}
           </div>
         </div>
       </div>
     </section>
+     */}
+
+
 
 
 
@@ -192,3 +190,8 @@ const About = () => {
 }
 
 export default About
+
+
+{/* 
+backgroundImage: 'url("https://relatacomm.files.wordpress.com/2020/08/topbackground.png")'
+*/}

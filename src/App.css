@@ -1,5 +1,30 @@
 @import url(https://fonts.googleapis.com/css?family=Courgette|Arapey:400italic,400);
 @import url(/wp-content/themes/luminate/js/grayscale/css/grayscale.css);
+
+
+
+
+
+
+
+
+
+
+  
+
+.homepage-services .service i{
+    font-size: 313%;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+
+.homepage-services .service:hover i { /*when homepage-services .service is hovered, make "i" golden colored*/ 
+    color: #cda84b;   
+}
+
 .alignright {
     float: right;
     clear: right;
@@ -223,7 +248,7 @@
 .peFlareLightbox {
     z-index: 99999 !important
 }
-@charset "UTF-8";
+
 body {
     color: #77787b;
     font-size: 15px;
@@ -1282,6 +1307,7 @@ blockquote {
         display: none
     }
 }
+/*
 @font-face {
     font-family: "Flaticon";
     src: url("/wp-content/themes/luminate2017/fonts/flaticon.eot");
@@ -1356,6 +1382,8 @@ blockquote {
     font-weight: 400;
     font-style: normal
 }
+*/
+
 [data-icon]:before {
     font-family: "untitled-font-1" !important;
     content: attr(data-icon);
