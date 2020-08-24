@@ -11,7 +11,6 @@ const HeroVideo = () => {
       <div style="background: black">
         <section id="default-version-splash" class="home splash videoWrapper video" style="opacity: .7;">
           <video
-            class="touch"
             muted
             autoplay
             playsinline
@@ -19,7 +18,6 @@ const HeroVideo = () => {
           />
       
           <video
-            class="non-touch"
             muted
             autoplay
             playsinline
