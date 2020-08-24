@@ -7,7 +7,7 @@ const HeroVideo = () => {
       <React.Fragment>
       <div style={{background: 'black'}}>
       <section id="default-version-splash" class="home splash videoWrapper video" style={{opacity: '.5', background: 'black'}}>
-      <video class="touch" autoplay="autoplay" autoPlay loop="loop" muted="muted" playsinline>
+      <video class="touch" autoPlay loop muted="muted" playsinline>
         <source src="https://relata.us/wp-content/uploads/2020/08/Myles-first-visit-back720p.mp4" />
       </video>
       <video class="non-touch" autoplay="autoplay" loop="loop" muted="muted" playsinline>
