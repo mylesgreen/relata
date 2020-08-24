@@ -30,7 +30,7 @@ const NavigationBar = () => {
         <div className="top-bar tb-large tb-transp">
           <div className="tb-logo">
             <a href="https://www.relata.us/" >
-              <img src="https://relata.us/wp-content/uploads/2020/08/Screen-Shot-2020-08-19-at-2.46.59-AM.png" alt="logo" /></a>
+              <img src="https://relatacomm.files.wordpress.com/2020/08/relata_full.png" alt="logo" /></a>
           </div>
           <input type="checkbox" id="toggle" />
           <label htmlFor="toggle" className="toggle" />
