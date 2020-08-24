@@ -96,8 +96,8 @@ const About = () => {
                   Post Writing &amp; Designs</div>
               </div>
               <div className="service">
-               
-                <img className="live-stream-icon" src="https://relatacomm.files.wordpress.com/2020/08/live-stream-broadcasting-blank.png"/>
+              <i class="fas fa-podcast"></i>
+                {/*  <img className="live-stream-icon" src="https://relatacomm.files.wordpress.com/2020/08/live-stream-broadcasting-blank.png"/> */}
                 <p />
                 <h3 className="service-head">Live Stream Broadcasting</h3>
                 <hr />
@@ -107,6 +107,7 @@ const About = () => {
                 </div>
               </div>
             </div>
+            <br/>
             <a className="small-btn btn" href="/services">View All</a>
             <p>{/* AddThis Advanced Settings above via filter on the_content */}{/* AddThis Advanced Settings below via filter on the_content */}{/* AddThis Advanced Settings generic via filter on the_content */}{/* AddThis Share Buttons above via filter on the_content */}{/* AddThis Share Buttons below via filter on the_content */}</p>
             <div className="at-below-post-homepage addthis_tool" data-url="https://www.relata.us/" />

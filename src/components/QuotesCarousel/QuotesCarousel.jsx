@@ -51,32 +51,40 @@ const QuotesCarousel = () => {
 
   const slides = items.map((item) => {
     return (
-      <CarouselItem
-        onExiting={() => setAnimating(true)}
-        onExited={() => setAnimating(false)}
-        key={item.src}
-      >
-        <img src={item.src} alt={item.altText} style={{minWidth: '100%'}}/>
-        <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
-      </CarouselItem>
+
+        <CarouselItem
+          onExiting={() => setAnimating(true)}
+          onExited={() => setAnimating(false)}
+          key={item.src}
+        >
+        
+        <img src={item.src} alt={item.altText} style={{minWidth: '100%', opacity: '.1'}}/>
+        
+
+          <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+        </CarouselItem>
+
     );
   });
   
 
   return (
     <React.Fragment>
+    <div style={{backgroundImage: 'url("https://relatacomm.files.wordpress.com/2020/08/milky-way-2695569_1280.jpg")'}}>
 
     <Carousel
     activeIndex={activeIndex}
     next={next}
     previous={previous}
-    className="carousel-fade"
+    // className="carousel-fade"
   >
     <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
     {slides}
     <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
     <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
   </Carousel>
+  </div>
+
 
     </React.Fragment>
   );
