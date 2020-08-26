@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import {
   Carousel,
   CarouselItem,
@@ -26,6 +26,14 @@ const items = [
 ];
 
 const QuotesCarousel = () => {
+
+  useEffect(() => {
+  
+    return function cleanup() {
+      document.body.classList.remove('d-none');
+      document.body.classList.remove('d-md-block');
+    };
+  }, []);
 
  
 
