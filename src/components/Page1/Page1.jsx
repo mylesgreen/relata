@@ -125,58 +125,6 @@ const About = () => {
 
 
 
- {/* 
-      <section className="lazyload padding-top-large padding-bottom-normal text-color-light section-type-column" data-bg="https://amtrakdowneaster.com/sites/default/files/station-images/stations_boston.jpg" 
-      style={{backgroundColor: '#fff', 
-      backgroundImage: 'url("https://wallpaperaccess.com/full/188673.jpg")'}} id="section-stats">
-      <div className="container">
-        <div className="row">
-          <div className="twelve columns col">
-            <div className="at-above-post-homepage addthis_tool" data-url="https://www.luminatemarketing.com/" />
-            <div className="row title">
-              <h2 className="gold">See <span className="gold">Results</span> In a Whole New Light</h2>
-            </div>
-            <div className="row homepage-stats">
-              <div className="stat">
-              <i class="fas fa-star-of-david" style={{fontSize: '500%'}}></i><br/>
-                <i className="icon"/><p />
-                <div className="stat-num">Where</div>
-                <div className="sub-num">are<br />my Icons, Myles?</div>
-              </div>
-              <div className="stat">
-              <i class="fas fa-cross" style={{fontSize: '500%'}}></i><p />
-                <div className="stat-num">Brah</div>
-                <div className="sub-num">I need these<br />icons</div>
-              </div>
-              <div className="stat">
-                <i class="fas fa-rocket" style={{fontSize: '500%'}}></i><p />
-                <div className="stat-num" style={{lineHeight: '24px', paddingBottom: '11px'}}>To be</div>
-                <div className="sub-num">transparent<br />and neat</div>
-              </div>
-              <div className="stat">
-              <i class="fas fa-plane-departure" style={{fontSize: '500%'}}></i><p />
-                <div className="stat-num">You</div>
-                <div className="sub-num">know what<br />I need</div>
-              </div>
-              <div className="stat">
-                <i className="flaticon flaticon-church4" /> <p />
-                <div className="stat-num">Lorem</div>
-                <div className="sub-num">Ipsum si et<br />dolor, bla bla bla</div>
-              </div>
-            </div>
-            
-            <div className="at-below-post-homepage addthis_tool" data-url="https://www.luminatemarketing.com/" />
-          </div>
-        </div>
-      </div>
-    </section>
-     */}
-
-
-
-
-
-
 
 
 

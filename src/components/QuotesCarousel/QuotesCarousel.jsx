@@ -70,7 +70,7 @@ const QuotesCarousel = () => {
 
   return (
     <React.Fragment>
-    <div style={{backgroundImage: 'url("https://relatacomm.files.wordpress.com/2020/08/milky-way-2695569_1280.jpg")'}}>
+    <div style={{backgroundImage: 'url("https://dummyimage.com/1400x400/007aeb/4196e5")'}}>
 
     <Carousel
     activeIndex={activeIndex}

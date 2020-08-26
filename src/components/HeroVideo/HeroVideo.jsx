@@ -10,7 +10,7 @@ const HeroVideo = () => {
       <div style="background: black;">
 
         <video
-          style="opacity: .5;"
+          style="opacity: .8;"
           playsinline 
           loop 
           autoPlay 
@@ -21,10 +21,10 @@ const HeroVideo = () => {
 
         
         <source 
-          src="https://relatacomm.files.wordpress.com/2020/08/go-delhi-go-_-delhi-in-two-minutes-_-hyperlapse1080p.mp4" type="video/mp4" />
+          src="https://relatacomm.files.wordpress.com/2020/08/relata-header-1.mp4" type="video/mp4" />
         
         <source 
-          src="https://videos.files.wordpress.com/WjJfjrBi/cities-from-around-the-world-_-hyperlapse-timelapse-_-4k720p_fmt1.ogv" type="video/ogg" />
+          src="https://videos.files.wordpress.com/GbIJTets/relata-header-1_fmt1.ogv" type="video/ogg" />
         Your browser does not support the video tag. I suggest you upgrade your browser.
 
         </video>     
