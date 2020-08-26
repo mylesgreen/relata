@@ -28,6 +28,9 @@ const items = [
 const QuotesCarousel = () => {
 
   useEffect(() => {
+
+    document.body.classList.remove('d-none');
+    document.body.classList.remove('d-md-block');
   
     return function cleanup() {
       document.body.classList.remove('d-none');
