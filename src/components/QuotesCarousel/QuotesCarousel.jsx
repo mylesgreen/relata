@@ -9,17 +9,17 @@ import {
 
 const items = [
   {
-    src: 'https://relatacomm.files.wordpress.com/2020/08/milky-way-2695569_1280.jpg',
+    src: 'https://dummyimage.com/1400x400/ffffff/ffffff.jpg',
     altText: 'Slide 1',
     caption: 'Slide 1'
   },
   {
-    src: 'https://relatacomm.files.wordpress.com/2020/08/wallpaper-1920x1080-1-e1598255299859.jpg',
+    src: 'https://dummyimage.com/1400x400/ffffff/ffffff.jpg',
     altText: 'Slide 2',
     caption: 'Slide 2'
   },
   {
-    src: 'https://relatacomm.files.wordpress.com/2020/08/carousel-background-quotes-e1598255579419.png',
+    src: 'https://dummyimage.com/1400x400/ffffff/ffffff.jpg',
     altText: 'Slide 3',
     caption: 'Slide 3'
   }
@@ -70,7 +70,7 @@ const QuotesCarousel = () => {
 
   return (
     <React.Fragment>
-    <div style={{backgroundImage: 'url("https://dummyimage.com/1400x400/007aeb/4196e5")'}}>
+    <div style={{backgroundImage: 'url("https://dummyimage.com/1400x400/ffffff/ffffff.jpg")'}}>
 
     <Carousel
     activeIndex={activeIndex}

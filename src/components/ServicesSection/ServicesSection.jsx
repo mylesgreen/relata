@@ -42,7 +42,7 @@ const ServicesSection = () => {
 
             <div className="service">
 
-              <span className="flaticon flaticon-lightbulb14" /><p />
+              <i class="fas fa-comments"></i><p />
               <h3 className="service-head">Social Media Marketing</h3>
               <hr />
               <div className="sub-service">
