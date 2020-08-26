@@ -3,7 +3,18 @@
 
 
 
-.homepage-services .service i{
+.carousel-control-next-icon, 
+.carousel-control-prev-icon {
+    background-color: #cda84b;
+}
+
+.carousel-caption h3 {
+    color: white;
+    margin-bottom: 30%;
+}
+
+.homepage-services .service i, 
+#servicesPage .service i {
     font-size: 313%;
     transition: .2s;
     -webkit-transition: .2s;
@@ -12,7 +23,8 @@
     -o-transition: .2s;
 }
 
-.homepage-services .service:hover i { /*when homepage-services .service is hovered, make "i" golden colored*/ 
+.homepage-services .service:hover i, /*when homepage-services .service is hovered, make "i" golden colored*/ 
+#servicesPage .service:hover i { 
     color: #cda84b;   
 }
 

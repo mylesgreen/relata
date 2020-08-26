@@ -7,10 +7,9 @@ const HeroVideo = () => {
       <React.Fragment>
 
     <div className="fullscreen-video-wrap" dangerouslySetInnerHTML={{ __html: `
-      <div style="background: black;">
 
         <video
-          style="opacity: .8;"
+          style="opacity: 1;"
           playsinline 
           loop 
           autoPlay 
@@ -28,7 +27,6 @@ const HeroVideo = () => {
         Your browser does not support the video tag. I suggest you upgrade your browser.
 
         </video>     
-      </div>       
 ` }}>
 </div>
 

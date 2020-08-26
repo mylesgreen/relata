@@ -9,17 +9,17 @@ import {
 
 const items = [
   {
-    src: 'https://dummyimage.com/1400x400/ffffff/ffffff.jpg',
+    src: 'https://dummyimage.com/1400x695/ffffff/ffffff.jpg',
     altText: 'Slide 1',
     caption: 'Slide 1'
   },
   {
-    src: 'https://dummyimage.com/1400x400/ffffff/ffffff.jpg',
+    src: 'https://dummyimage.com/1400x695/ffffff/ffffff.jpg',
     altText: 'Slide 2',
     caption: 'Slide 2'
   },
   {
-    src: 'https://dummyimage.com/1400x400/ffffff/ffffff.jpg',
+    src: 'https://dummyimage.com/1400x695/ffffff/ffffff.jpg',
     altText: 'Slide 3',
     caption: 'Slide 3'
   }
@@ -70,7 +70,7 @@ const QuotesCarousel = () => {
 
   return (
     <React.Fragment>
-    <div style={{backgroundImage: 'url("https://dummyimage.com/1400x400/ffffff/ffffff.jpg")'}}>
+    <div style={{backgroundImage: 'url("https://dummyimage.com/1400x695/000000/ffffff.jpg")'}}>
 
     <Carousel
     activeIndex={activeIndex}
