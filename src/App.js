@@ -4,7 +4,7 @@ import Home from './components/Home';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Navbar from './components/NavigationBar/NavigationBar';
 import Footer from './components/Footer/Footer';
-import Page2 from './components/Page2/Page2';
+import ContactUs from './components/ContactUs/ContactUs';
 import ServicesSection from './components/ServicesSection';
 import $ from 'jquery';
 
@@ -20,6 +20,8 @@ const App = () => {
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/services" component={ServicesSection} />
+          <Route path="/contact-us" component={ContactUs} />
+
 
           <Route render={() => <h2 style={{ paddingTop: '15%' }}>404 Page not found</h2>} />
 
