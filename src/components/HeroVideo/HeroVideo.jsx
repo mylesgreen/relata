@@ -18,12 +18,11 @@ const HeroVideo = () => {
           poster="https://relatacomm.files.wordpress.com/2020/08/social-advertising-blank.png"
         >
 
+        <source 
+          src="https://relatacomm.files.wordpress.com/2020/08/relata-header-w-shadow.mp4" type="video/mp4" />
         
         <source 
-          src="https://relatacomm.files.wordpress.com/2020/08/relata-header-1.mp4" type="video/mp4" />
-        
-        <source 
-          src="https://videos.files.wordpress.com/GbIJTets/relata-header-1_fmt1.ogv" type="video/ogg" />
+          src="https://videos.files.wordpress.com/wvLMWrIp/relata-header-w-shadow_fmt1.ogv" type="video/ogg" />
         Your browser does not support the video tag. I suggest you upgrade your browser.
 
         </video>     

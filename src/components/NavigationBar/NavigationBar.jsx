@@ -61,9 +61,9 @@ function scrollFunction() {
             </nav>
             <div className="header-social">
               <a href="https://www.youtube.com/watch?v=gwUJHNPMUyU&t=2625s" target="_blank"><i className="fa fa-instagram" /></a>
-              <a href="https://www.jordanbpeterson.com/political-correctness/equity-when-the-left-goes-too-far/" target="_blank"><i className="fa fa-facebook" /></a>
-              <a href="https://www.lawenforcementtoday.com/brooklyn-college-professor-math-reeks-of-white-supremacist-patriarchy/" target="_blank"><i className="fa fa-twitter" /></a>
-              <a href="https://www.google.com/search?q=effects+of+ab5&oq=Effects+of+AB5&aqs=chrome.0.0.4066j0j1&sourceid=chrome&ie=UTF-8" target="_blank"><i className="fa fa-linkedin" /></a>
+              <a href="https://www.facebook.com/RelataDigital" target="_blank"><i className="fa fa-facebook" /></a>
+              <a href="https://twitter.com/relatadigital" target="_blank"><i className="fa fa-twitter" /></a>
+              <a href="https://linkedin.com/company/relatadigital" target="_blank"><i className="fa fa-linkedin" /></a>
           {/*     <a href="https://www.youtube.com/watch?v=_uk_6vfqwTA&t=1m16s" target="_blank"><i className="fa fa-vimeo-square" /></a> */}
           </div>  
           </div>
