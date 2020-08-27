@@ -179,7 +179,7 @@ const ServicesSection = () => {
                 </button>
               </div>
               <div className="modal-body">
-              <p style={{fontSize: '115%'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum ligula vitae dolor aliquet, 
+              <p style={{fontSize: '120%'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fermentum ligula vitae dolor aliquet, 
               maximus egestas dolor blandit. Duis dictum enim vitae tellus elementum, id luctus dolor sodales. 
               Cras viverra egestas nisl in pellentesque. Nulla molestie nulla quis nibh commodo, vel egestas ipsum tempus. 
               Cras justo turpis, sodales non nisl vel, blandit efficitur nisi. Vivamus at purus eget tellus ullamcorper
