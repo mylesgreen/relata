@@ -4,6 +4,7 @@ import { Container } from 'reactstrap';
 import Fade from 'react-reveal/Fade';
 import HeroVideo from '../HeroVideo';
 import QuotesCarousel from '../QuotesCarousel';
+import Footer from '../Footer/Footer';
 
 
 
@@ -12,16 +13,15 @@ const About = () => {
   
         <React.Fragment>
 
+        <HeroVideo/>
 
-        <Fade>
-            <HeroVideo/>
-        </Fade>
-
-        <div id="default-version" className="services">
         <section className="lazyload padding-top-normal padding-bottom-normal  section-type-column" 
         data-bg="" 
         style={{backgroundColor: '#fff',}} 
-            id="section-about">
+        id="section-about">
+            
+        <Fade>
+
           <div className="container">
             <div className="row">
               <div className="twelve columns col">
@@ -40,11 +40,14 @@ const About = () => {
                 <div className="at-below-post-homepage addthis_tool" data-url="" />
               </div>
             </div>
-          </div>
+            </div>
+            </Fade>
         </section>
         
         
-        
+
+
+
         <section 
         className="lazyload padding-top-normal padding-bottom-normal  bg-image-cover section-type-services" 
         id="section-services" 
@@ -58,6 +61,7 @@ const About = () => {
         <h2 style={{fontWeight: '500', fontSize: '125%'}}>WHAT WE <span className="gold">DO</span></h2>
           <div className="section-content-wrap"><div className="at-above-post-homepage addthis_tool"/>
             <div className="row  homepage-services">
+            <Fade>
               <div className="service">
                 <i class="fas fa-comments"></i><p />
                 <h3 className="service-head">Social Media Marketing</h3>
@@ -106,6 +110,7 @@ const About = () => {
                 Simultaneous streams <br/>
                 </div>
               </div>
+              </Fade>
             </div>
             <br/>
             <a className="small-btn btn" href="/services">View All</a>
@@ -116,23 +121,105 @@ const About = () => {
         </div>
       </div>
       </section>
-      </div>
-
-      <QuotesCarousel/>
 
 
 
+    <section className="bg-img fixed padding-top-normal padding-bottom-large  bg-image-cover section-type-about row-1" id="section-team" style={{backgroundColor: '#fff'}}>
+     
+
+    <div className="title" style={{textAlign: 'center'}}>
+      <h2>Meet the <span className="gold">Team</span></h2>
+    </div>
+    <Fade>
+        <div className="grid-mt twelve col">
+          <div className="grid-ms">
+            <div className="overlay-item">
+              <span>
+              </span>
+              <img src="https://alfredorafael.com/wp-content/uploads/2019/03/circlePicture.png" alt="Alfredo R. Pabon" className="lazyload responsive-img" />
+            </div>
+            <div className="e-info">
+              <h3>Alfredo</h3>
+              <p>Web Developer</p>
+            </div>
+          </div>
+          <div className="grid-ms">
+            <div className="overlay-item">
+              <span>
+              </span>
+              <img src="https://relatacomm.files.wordpress.com/2020/08/erica-digital-specialist.png" alt="Erica" className="lazyload responsive-img" />
+            </div>
+            <div className="e-info">
+              <h3>Erica</h3>
+              <p>Digital Specialist</p>
+            </div>
+          </div>
+          <div className="grid-ms">
+            <div className="overlay-item">
+              <span>
+              </span>
+              <img src="https://relatacomm.files.wordpress.com/2020/08/tala-account-manager.png" alt="Tala" className="lazyload responsive-img" />
+            </div>
+            <div className="e-info">
+              <h3>Tala</h3>
+              <p>Account Manager</p>
+            </div>
+          </div>
+         
+         
+         
+        </div>
+
+        </Fade>
 
 
 
 
 
-
-
-
-
-
+<Fade>
+        <div className='row-2'>
+        
+            <div className="grid-mt twelve col">
+              
+              <div className="grid-ms">
+                <div className="overlay-item">
+                  <span>
+                  </span>
+                  <img src="https://relatacomm.files.wordpress.com/2020/08/david-smith-cfo.jpg" alt="David" className="lazyload responsive-img" />
+                </div>
+                <div className="e-info">
+                  <h3>David</h3>
+                  <p>Chief Develoment Officer</p>
+                </div>
+              </div>
+              <div className="grid-ms">
+                <div className="overlay-item">
+                  <span>
+                  </span>
+                  <img src="https://relatacomm.files.wordpress.com/2020/08/myles.jpg" alt="Myles" className="lazyload responsive-img" />
+                </div>
+                <div className="e-info">
+                  <h3>Myles</h3>
+                  <p>Principal</p>
+                </div>
+              </div>
+             
+             
+             
+            </div>
     
+            </div> {/* Row 1 ends */}
+        
+        <div className="col center text-center" style={{marginBottom: '3%'}}>
+          <a href="/about" className="btn team">More about us</a>
+        </div>
+        
+      </Fade>
+
+    </section>
+
+
+
 
         </React.Fragment>
     );

@@ -54,13 +54,14 @@ function scrollFunction() {
           <div className="nav-social">
             <nav className="menu">
               <ul className="nav navbar-right navbar-nav">
-                <li><a className="menu-item-about" href="https://www.relata.us/about/">About</a></li>
+              <li><a className="menu-item-contact" href="/">Home</a></li>
+                <li><a className="menu-item-about" href="/about">About</a></li>
                 <li><a className="menu-item-services" href="/services">Services</a></li>
                 <li><a className="menu-item-contact" href="/contact-us">Contact</a></li>
               </ul>
             </nav>
             <div className="header-social">
-              <a href="https://www.youtube.com/watch?v=gwUJHNPMUyU&t=2625s" target="_blank"><i className="fa fa-instagram" /></a>
+              <a href="https://www.instagram.com/relatadigital/" target="_blank"><i className="fa fa-instagram" /></a>
               <a href="https://www.facebook.com/RelataDigital" target="_blank"><i className="fa fa-facebook" /></a>
               <a href="https://twitter.com/relatadigital" target="_blank"><i className="fa fa-twitter" /></a>
               <a href="https://linkedin.com/company/relatadigital" target="_blank"><i className="fa fa-linkedin" /></a>

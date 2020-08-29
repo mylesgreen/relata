@@ -28,6 +28,15 @@
     color: #cda84b;   
 }
 
+#section-team .row-2 {
+    margin: 0 16%;
+}
+
+
+
+/*/////////////////////////////////////////////////////////////////////////*/
+
+
 .alignright {
     float: right;
     clear: right;
@@ -736,6 +745,7 @@ a.green:hover {
     width: 208px;
     margin: 0 auto
 }
+
 .owl-carousel.team-slider .owl-wrapper .owl-item .grid-ms .overlay-item img:hover {
     border-color: #cda84b
 }
@@ -1435,11 +1445,32 @@ blockquote {
     margin: 0;
     padding: 10px 20px
 }
+
 #section-team .grid-mt .grid-ms {
-    flex-basis: 25%;
-    min-width: 25%;
-    max-width: 25%
+    flex-basis: 33%;
+    min-width: 33%;
+    max-width: 33%;
 }
+
+#section-team .row-2 .grid-ms {
+    flex-basis: 33%;
+    min-width: 50%;
+    max-width: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:768px) {
     .grid-mt .grid-ms {
         flex-basis: 100%;

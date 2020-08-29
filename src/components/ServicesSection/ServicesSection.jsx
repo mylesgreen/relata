@@ -14,7 +14,7 @@ const ServicesSection = () => {
   
         <React.Fragment>
 
-        <div id="servicesPage" style={{height: '100%'}}>
+        <div id="servicesPage">
 
         <div class="headline-no-image">
 			<div class="row">

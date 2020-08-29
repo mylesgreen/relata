@@ -7,25 +7,38 @@ import './footer.css';
 const AppFooter = () => {
     return (
         <React.Fragment>
-            <StyledFooter id="footer">
-                <Container>
+
+        
 
 
-                    <Row>
+        <Row className="myFooter">
+        
+        
+        <Col>
+            <br/>
+        </Col>
 
-                        <Col>
-                            <span> Copyright Ⓒ Relata, 2020 </span>
-                        </Col>
 
-                        <Col>
 
-                        </Col>
+        <Col style={{textAlign: 'center'}}>
+        <p>© 2020 Relata LLC</p>
+        </Col>
 
-                    </Row>
 
-                </Container>
 
-            </StyledFooter>
+        <Col>
+            <br/>
+        </Col>
+
+        </Row>
+
+
+        
+        
+
+    
+    
+       
         </React.Fragment>
     )
 }

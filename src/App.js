@@ -6,6 +6,7 @@ import Navbar from './components/NavigationBar/NavigationBar';
 import Footer from './components/Footer/Footer';
 import ContactUs from './components/ContactUs/ContactUs';
 import ServicesSection from './components/ServicesSection';
+import About from './components/About/About';
 import $ from 'jquery';
 
 
@@ -14,6 +15,7 @@ const App = () => {
   return (
     <React.Fragment>
     <Navbar />
+
       <Router>
 
         {/* //////////////////////////////////////////////////////////////////////// */}
@@ -21,7 +23,7 @@ const App = () => {
           <Route path="/" component={Home} exact />
           <Route path="/services" component={ServicesSection} />
           <Route path="/contact-us" component={ContactUs} />
-
+          <Route path="/about" component={About} />
 
           <Route render={() => <h2 style={{ paddingTop: '15%' }}>404 Page not found</h2>} />
 
@@ -31,6 +33,9 @@ const App = () => {
 
       </Router>
 
+      <br/>
+
+      <Footer/>
 
     </React.Fragment>
   );
