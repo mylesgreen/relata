@@ -15,7 +15,7 @@ const HeroVideo = () => {
           autoPlay 
           muted 
           autobuffer 
-          poster="https://relatacomm.files.wordpress.com/2020/08/social-advertising-blank.png"
+          poster="https://relatacomm.files.wordpress.com/2020/08/loadingimg-1.png"
         >
 
         <source 
