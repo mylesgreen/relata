@@ -43,7 +43,7 @@ function scrollFunction() {
           <div className="tb-logo">
             <a href="/" >
               <img 
-               src="https://relatacomm.files.wordpress.com/2020/08/relata_full.png" 
+               src="https://relatacomm.files.wordpress.com/2020/08/logo_and_text.png" 
                alt="logo" 
                id="logo"
                style={{transition: '.5s'}}
