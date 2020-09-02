@@ -208,7 +208,7 @@ const About = () => {
              
             </div>
     
-            </div> {/* Row 1 ends */}
+            </div> {/* Row 2 ends */}
         
         <div className="col center text-center" style={{marginBottom: '3%'}}>
           <a href="/about" className="btn team">More about us</a>

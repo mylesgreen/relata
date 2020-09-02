@@ -22,7 +22,8 @@
     color: #cda84b;   
 }
 
-#section-team .row-2 {
+#section-team .row-2,
+#aboutPage .row-2 {
     margin: 0 16%;
 }
 
@@ -1447,7 +1448,8 @@ blockquote {
     max-width: 33%;
 }
 
-#section-team .row-2 .grid-ms {
+#section-team .row-2 .grid-ms,
+#aboutPage .row-2 .grid-ms {
     flex-basis: 33%;
     min-width: 50%;
     max-width: 10%;

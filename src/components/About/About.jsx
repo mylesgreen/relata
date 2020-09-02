@@ -114,7 +114,7 @@ const About = () => {
      
 
 <div className="title" style={{textAlign: 'center'}}>
-  <h2>Meet the <span className="gold">Team</span></h2>
+  <h2>The <span className="gold">Team</span></h2>
 </div>
 <Fade>
     <div className="grid-mt twelve col">
