@@ -1,11 +1,55 @@
 @import url(https://fonts.googleapis.com/css?family=Courgette|Arapey:400italic,400);
-@import url(/wp-content/themes/luminate/js/grayscale/css/grayscale.css);
 
-
-.carousel-caption h3 {
-    color: red;
-    margin-bottom: 40%;
+:root {
+    --blue: #007bff;
 }
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Back to top button*/
+.scroll-to-top-button {
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        z-index: 1000;
+        background: #cda84b;
+        opacity: .7;
+        border-radius: 0;
+        border: 1px solid white;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 3em;
+        color: #fff;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+    }
+
+      .scroll-to-top-button:hover {
+        cursor: pointer;
+        opacity: 1;
+    }
+
+    .fa, .far, .fas {
+        margin-right: 6px;
+    }
+
+    @media screen and (max-width: 600px) {
+        .scroll-to-top-button {
+            width: 40px;
+            height: 35px;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 2em;
+        }
+    }
+/*Ends back to top button*/
+      
 
 .homepage-services .service i, 
 #servicesPage .service i {
@@ -22,7 +66,7 @@
     color: #cda84b;   
 }
 
-#section-team .row-2,
+#section-team .row-2, /*team members*/
 #aboutPage .row-2 {
     margin: 0 16%;
 }
@@ -31,7 +75,6 @@
 
 
 /*//From original///////////////////////////////////////////////////////////////////////*/
-
 
 .alignright {
     float: right;
