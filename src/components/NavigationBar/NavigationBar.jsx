@@ -54,10 +54,10 @@ function scrollFunction() {
           <div className="nav-social">
             <nav className="menu">
               <ul className="nav navbar-right navbar-nav">
-              <li><a className="menu-item-contact" href="/">Home</a></li>
-                <li><a className="menu-item-about" href="/about">About</a></li>
-                <li><a className="menu-item-services" href="/services">Services</a></li>
-                <li><a className="menu-item-contact" href="/contact-us">Contact</a></li>
+              <li><a className="menu-item-contact" href="/">Home!</a></li>
+                <li><a className="menu-item-about" href="/about">About!</a></li>
+                <li><a className="menu-item-services" href="/services">Services!</a></li>
+                <li><a className="menu-item-contact" href="/contact-us">Contact!</a></li>
               </ul>
             </nav>
             <div className="header-social">
