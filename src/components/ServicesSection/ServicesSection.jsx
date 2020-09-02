@@ -16,13 +16,15 @@ const ServicesSection = () => {
 
         <div id="servicesPage">
 
-        <div class="headline-no-image">
+        <div class="headline-no-image" style={{marginBottom: '5%'}}>
 			<div class="row">
 				<div class="twelve col">
-					<h1>Services</h1>
+					<h1 style={{fontWeight: '500'}}>Services</h1>
 				</div>
 			</div>
         </div>
+
+
         
 
 
@@ -40,7 +42,7 @@ const ServicesSection = () => {
 
           <div className="row services-listing">
 
-            <div className="service" data-toggle="modal" data-target="#exampleModal">
+            <div className="service"> {/* data-toggle="modal" data-target="#exampleModal" */}
 
               <i class="fas fa-comments"></i><p />
               <h3 className="service-head">Social Media Marketing</h3>
@@ -146,7 +148,7 @@ const ServicesSection = () => {
                 <a className="small-btn btn" href="/work/">See Our Work</a>
               </p>
             */}</div>
-            <div className="service">
+            <div className="service" style={{marginBottom: '12%'}}>
             <i class="fas fa-video"></i><p />
               <h3 className="service-head">Video & Motion Graphics</h3>
               <hr />

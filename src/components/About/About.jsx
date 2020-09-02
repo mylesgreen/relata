@@ -20,7 +20,7 @@ const About = () => {
         <div class="headline-no-image">
 			<div class="row">
 				<div class="twelve col">
-					<h1>About</h1>
+					<h1 style={{fontWeight: '500'}}>About</h1>
 				</div>
 			</div>
         </div>
@@ -38,7 +38,7 @@ const About = () => {
         <h2>Who We <span className="gold">Are</span> &amp; What We <span className="gold">Do</span></h2>
       </div>
 
-      <button onClick={message}>Click me</button>
+{/*       <button onClick={message}>Click me</button> */}
 
         <p>&nbsp;</p>
                 <div className="row">
@@ -59,7 +59,7 @@ const About = () => {
                 </section>
                 
                 
-                
+    {/*             
                 
                 <section className="padding-top-none padding-bottom-normal  section-type-column" style={{backgroundColor: '#fff'}} id="section-10"><div className="container">
                 <div className="row"><div className="twelve columns col">
@@ -97,12 +97,110 @@ const About = () => {
                     </p></div>
                 </div>
          <div className="at-below-post-page addthis_tool" data-url="https://www.luminatemarketing.com/about/" />
-         </div></div></div></section><section className="padding-top-none padding-bottom-none  section-type-column" style={{backgroundColor: '#fff'}} id="section-founder"><div className="container"><div className="row"><div className="twelve columns col"><div className="at-above-post-page addthis_tool" data-url="https://www.luminatemarketing.com/about/" /><p>
+         </div></div></div></section>
+         
+    */}   
 
 
-</p>
-<div className="at-below-post-page addthis_tool" data-url="https://www.luminatemarketing.com/about/" /></div></div></div></section>
+
+       
+
+
+
+
+
+
+
+     
+
+<div className="title" style={{textAlign: 'center'}}>
+  <h2>Meet the <span className="gold">Team</span></h2>
+</div>
+<Fade>
+    <div className="grid-mt twelve col">
+      <div className="grid-ms">
+        <div className="overlay-item">
+          <span>
+          </span>
+          <img src="https://alfredorafael.com/wp-content/uploads/2019/03/circlePicture.png" alt="Alfredo R. Pabon" className="lazyload responsive-img" />
+        </div>
+        <div className="e-info">
+          <h3>Alfredo</h3>
+          <p>Web Developer</p>
+        </div>
       </div>
+      <div className="grid-ms">
+        <div className="overlay-item">
+          <span>
+          </span>
+          <img src="https://relatacomm.files.wordpress.com/2020/08/erica-digital-specialist.png" alt="Erica" className="lazyload responsive-img" />
+        </div>
+        <div className="e-info">
+          <h3>Erica</h3>
+          <p>Digital Specialist</p>
+        </div>
+      </div>
+      <div className="grid-ms">
+        <div className="overlay-item">
+          <span>
+          </span>
+          <img src="https://relatacomm.files.wordpress.com/2020/08/tala-account-manager.png" alt="Tala" className="lazyload responsive-img" />
+        </div>
+        <div className="e-info">
+          <h3>Tala</h3>
+          <p>Account Manager</p>
+        </div>
+      </div>
+     
+     
+     
+    </div>
+
+    </Fade>
+</div>
+
+
+
+
+<Fade>
+    <div className='row-2'>
+    
+        <div className="grid-mt twelve col">
+          
+          <div className="grid-ms">
+            <div className="overlay-item">
+              <span>
+              </span>
+              <img src="https://relatacomm.files.wordpress.com/2020/08/david-smith-cfo.jpg" alt="David" className="lazyload responsive-img" />
+            </div>
+            <div className="e-info">
+              <h3>David</h3>
+              <p>Chief Develoment Officer</p>
+            </div>
+          </div>
+          <div className="grid-ms">
+            <div className="overlay-item">
+              <span>
+              </span>
+              <img src="https://relatacomm.files.wordpress.com/2020/08/myles.jpg" alt="Myles" className="lazyload responsive-img" />
+            </div>
+            <div className="e-info">
+              <h3>Myles</h3>
+              <p>Principal</p>
+            </div>
+          </div>
+         
+         
+         
+        </div>
+
+        </div> {/* Row 1 ends */}
+    
+    <div className="col center text-center" style={{marginBottom: '3%'}}>
+      <a href="/about" className="btn team">More about us</a>
+    </div>
+    
+  </Fade>
 
 
         

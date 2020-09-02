@@ -6,33 +6,30 @@ import $ from 'jquery';
 
 const NavigationBar = () => {
 
-window.onscroll = function() {scrollFunction()};
+// window.onscroll = function() {scrollFunction()};
 
-function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-    document.querySelector(".top-bar").style.paddingRight = "15px";
-    document.querySelector(".top-bar").style.paddingLeft = "15px";
-    document.querySelector(".top-bar").style.minHeigth = "30px";
-    document.querySelector(".top-bar").style.paddingBottom = "1px";
-    document.querySelector(".menu-item-contact").style.fontSize = "16px";
-    document.querySelector(".menu-item-about").style.fontSize = "16px";
-    document.querySelector(".menu-item-services").style.fontSize = "16px";
-    document.querySelector(".top-bar").style.maxHeigth = "50px";
-
-
-  } else {
-    document.querySelector(".top-bar").style.paddingRight = "25px";
-    document.querySelector(".top-bar").style.paddingLeft = "25px";
-    document.querySelector(".top-bar").style.minHeigth = "65px";
-    document.querySelector(".menu-item-contact").style.fontSize = "16px";
-    document.querySelector(".menu-item-about").style.fontSize = "16px";
-    document.querySelector(".menu-item-services").style.fontSize = "16px";
-    document.querySelector("#logo").style.maxHeigth = "80px";
+// function scrollFunction() {
+//   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+//     document.querySelector(".top-bar").style.paddingRight = "15px";
+//     document.querySelector(".top-bar").style.paddingLeft = "15px";
+//     document.querySelector(".top-bar").style.minHeigth = "30px";
+//     document.querySelector(".top-bar").style.paddingBottom = "1px";
+//     document.querySelector(".menu-item-contact").style.fontSize = "16px";
+//     document.querySelector(".menu-item-about").style.fontSize = "16px";
+//     document.querySelector(".menu-item-services").style.fontSize = "16px";
+//     document.querySelector(".top-bar").style.maxHeigth = "50px";
 
 
-
-  }
-}
+//   } else {
+//     document.querySelector(".top-bar").style.paddingRight = "25px";
+//     document.querySelector(".top-bar").style.paddingLeft = "25px";
+//     document.querySelector(".top-bar").style.minHeigth = "65px";
+//     document.querySelector(".menu-item-contact").style.fontSize = "16px";
+//     document.querySelector(".menu-item-about").style.fontSize = "16px";
+//     document.querySelector(".menu-item-services").style.fontSize = "16px";
+//     document.querySelector("#logo").style.maxHeigth = "80px";
+//   }
+// }
 
     return (
       <React.Fragment>
@@ -57,7 +54,7 @@ function scrollFunction() {
               <li><a className="menu-item-contact" href="/">Home</a></li>
                 <li><a className="menu-item-about" href="/about">About</a></li>
                 <li><a className="menu-item-services" href="/services">Services</a></li>
-                <li><a className="menu-item-contact" href="/contact-us">Contact</a></li>
+                <li><a className="menu-item-contact" href="/contact">Contact</a></li>
               </ul>
             </nav>
             <div className="header-social">

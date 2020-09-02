@@ -2,12 +2,6 @@
 @import url(/wp-content/themes/luminate/js/grayscale/css/grayscale.css);
 
 
-
-.carousel-control-next-icon, 
-.carousel-control-prev-icon {
-    background-color: #cda84b;
-}
-
 .carousel-caption h3 {
     color: red;
     margin-bottom: 40%;
@@ -34,7 +28,8 @@
 
 
 
-/*/////////////////////////////////////////////////////////////////////////*/
+
+/*//From original///////////////////////////////////////////////////////////////////////*/
 
 
 .alignright {
@@ -998,14 +993,14 @@ input[type=submit]:hover,
 .overlay-item:hover .o-hover:hover + img {
     border-color: #cda84b
 }
-.overlay-item:hover img {
+.overlay-item:hover img { /*team member*/
     filter: none;
     -webkit-filter: none;
     -webkit-transition: all .6s ease;
     -webkit-backface-visibility: hidden;
     z-index: 9999
 }
-.overlay-item:hover img:hover {
+.overlay-item:hover img:hover { /*team member*/
     border-color: #cda84b
 }
 a.small-btn {
@@ -4925,7 +4920,9 @@ img {
 .responsive-img {
     max-width: 100%;
     height: auto;
-    vertical-align: bottom
+    vertical-align: bottom;
+    filter: grayscale(100%); /*team member*/
+    -webkit-filter: grayscale(100%);
 }
 .circle-img {
     -webkit-border-radius: 50%;

@@ -23,7 +23,7 @@ export default function ContactUs() {
     <div class="headline-no-image">
 			<div class="row">
 				<div class="twelve col">
-					<h1>Contact Us</h1>
+					<h1 style={{fontWeight: '500'}}>Contact Us</h1>
 				</div>
 			</div>
       </div>

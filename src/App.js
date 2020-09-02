@@ -22,7 +22,7 @@ const App = () => {
         <Switch>
           <Route path="/" component={Home} exact />
           <Route path="/services" component={ServicesSection} />
-          <Route path="/contact-us" component={ContactUs} />
+          <Route path="/contact" component={ContactUs} />
           <Route path="/about" component={About} />
 
           <Route render={() => <h2 style={{ paddingTop: '15%' }}>404 Page not found</h2>} />
