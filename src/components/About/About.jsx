@@ -197,7 +197,7 @@ const About = () => {
         </div> {/* Row 1 ends */}
     
     <div className="col center text-center" style={{marginBottom: '3%'}}>
-      <a href="/about" className="btn team">More about us</a>
+      <a href="/contact" className="btn team">Contact us</a>
     </div>
     
   </Fade>
