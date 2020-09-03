@@ -7,9 +7,16 @@ import $ from 'jquery';
 
 const AppFooter = () => {
 
-    const scrollToTop = () => {
-        $(window).scrollTop(0); 
-    };
+    // const scrollToTop = () => {
+    //     $(window).scrollTop(0); 
+    // };
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
 
     return (
         <React.Fragment>

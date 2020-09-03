@@ -12,16 +12,16 @@ html {
 /*Back to top button*/
 .scroll-to-top-button {
         width: 40px;
-        height: 40px;
+        height: 35px;
         text-align: center;
         z-index: 1000;
         background: #cda84b;
         opacity: .7;
         border-radius: 0;
-        border: 1px solid white;
+        /* border: 1px solid white; */
         font-weight: normal;
         font-style: normal;
-        font-size: 3em;
+        font-size: 2em;
         color: #fff;
         transition: .5s;
         -webkit-transition: .5s;
@@ -37,6 +37,7 @@ html {
 
     .fa, .far, .fas {
         margin-right: 6px;
+        margin-top: 4px;
     }
 
     @media screen and (max-width: 600px) {
