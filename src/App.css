@@ -9,6 +9,10 @@ html {
     scroll-behavior: smooth;
 }
 
+.grey-background {
+    background: red;
+}
+
 /*Back to top button*/
 .scroll-to-top-button {
         width: 40px;
@@ -361,13 +365,15 @@ h6,
 .top-bar .header-social {
     margin-top: 10px;
     margin-right: 12px;
-    text-align: right
+    text-align: right;
+    margin-bottom: -1%; /*added*/
 }
 .top-bar .header-social a {
     color: #fff;
     font-size: 18px;
-    padding: 10px
+    padding: 10px;
 }
+
 .top-bar .header-social a:hover {
     color: #cda84b
 }

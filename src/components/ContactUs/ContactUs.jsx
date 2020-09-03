@@ -20,10 +20,12 @@ export default function ContactUs() {
 
   return (
     <React.Fragment>
+
+
     <div class="headline-no-image">
 			<div class="row">
 				<div class="twelve col">
-					<h1 style={{fontWeight: '500'}}>Contact Us</h1>
+					<h1 style={{fontWeight: '500'}}>Contact</h1>
 				</div>
 			</div>
       </div>
@@ -31,25 +33,73 @@ export default function ContactUs() {
       <Container>
 
 
-    <form className="contact-form-class" id="contact-form-id" onSubmit={sendEmail}>
     
-    <div class="twelve col">
-      <h1>Something</h1>
-    </div>      
+    <div className="title padding-bottom-none" style={{marginTop: '5%'}}>
+        <h2><span className="gold">Let's get in touch</span></h2>
+    </div>
+
+    <br/>
+
+
+
+
+    <form className="contact-form-class" id="contact-form-id" onSubmit={sendEmail}>
     
     <div className="row">
         <div className="col">
-          <input type="text" name="user_name" className="form-control" placeholder="First name" />
+          <div style={{display: 'flex'}}>
+          
+          <input 
+            type="text" 
+            name="user_name" 
+            className="form-control" 
+            placeholder="Name"
+          />
+
+          
+
+          <input 
+            type="email" 
+            name="user_name" 
+            className="form-control" 
+            placeholder="Email"
+            style={{marginLeft: '5%'}}
+          />
+          
+          </div>
+          
           <br/>
-          <input type="text" className="form-control" placeholder="Last name" />
+
+          <input 
+            type="phone" 
+            name="user_phone" 
+            className="form-control" 
+            placeholder="Phone Number"
+          />
           <br/>
-          <Label>Email</Label>
-          <input type="email" name="user_name" className="form-control" placeholder="Last name" />
+
+          <textarea 
+            className="form-control" 
+            name="message" 
+            id="validationTextarea" 
+            placeholder="What are you trying to accomplish?" 
+            required
+          />
+
         </div>
-
-
-        <div className="col" style={{itemsAlign: 'left'}}>
-          <textarea class="form-control" name="message" id="validationTextarea" placeholder="Required example textarea" required/>                  
+        
+        <div className="col">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut sagittis ipsum. 
+        Ut suscipit nisi quis turpis mattis auctor. Aenean faucibus libero lacinia justo 
+        facilisis commodo. Donec elementum, tortor sit amet suscipit tempor, libero eros 
+        tincidunt justo, ut fringilla sem augue et mi. Mauris odio nibh, imperdiet eu arcu 
+        vitae, suscipit fringilla magna. Aliquam volutpat mi urna, vel euismod justo viverra 
+        vel. Ut consequat sapien sit amet placerat tempor. Vivamus molestie, lorem at rutrum 
+        elementum, quam leo ullamcorper velit, sit amet ultrices purus eros efficitur dolor. 
+        Suspendisse gravida neque non ex sagittis dignissim. Ut ac magna feugiat, efficitur 
+        lorem eu, ullamcorper diam. Aliquam erat volutpat. Ut sit amet lorem sit amet lorem 
+        porta vulputate. Donec pretium lacus sed commodo luctus. 
+      
         </div>
     </div>
     <br/>
