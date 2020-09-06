@@ -1098,7 +1098,7 @@ span.wpcf7-list-item {
 .service:hover .icon {
     color: #cda84b
 }
-#wpcf7-f3731-o1 input {
+/* #wpcf7-f3731-o1 input {
     width: 100%;
     margin-top: 10px;
     padding: 10px 8px
@@ -1110,7 +1110,7 @@ span.wpcf7-list-item {
 #wpcf7-f3731-o1 textarea {
     width: 100%;
     margin-top: 10px
-}
+} */
 .overlay-item {
     z-index: 9
 }
@@ -6144,6 +6144,7 @@ a {
 a:hover {
     color: #111
 }
+
 a,
 a i,
 button,

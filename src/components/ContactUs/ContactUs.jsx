@@ -22,13 +22,21 @@ export default function ContactUs() {
     <React.Fragment>
 
 
-    <div class="headline-no-image">
-			<div class="row">
-				<div class="twelve col">
-					<h1 style={{fontWeight: '500'}}>Contact</h1>
-				</div>
-			</div>
-      </div>
+  <div style={{
+    backgroundImage: 'url("https://relatacomm.files.wordpress.com/2020/09/background-w-symbol.png")',
+    backgroundPosition: 'center',
+    marginBottom: '-2%',
+  }}>
+      
+
+  <div class="headline-no-image">
+  <div class="row">
+    <div class="twelve col">
+      <h1 style={{fontWeight: '500'}}>Contact</h1>
+    </div>
+  </div>
+  </div>
+
 
       <Container>
 
@@ -60,7 +68,7 @@ export default function ContactUs() {
 
           <input 
             type="email" 
-            name="user_name" 
+            name="user_email" 
             className="form-control" 
             placeholder="Email"
             style={{marginLeft: '5%'}}
@@ -106,7 +114,13 @@ export default function ContactUs() {
     <input type="submit" value="Send" />
     
     </form>
+    <br/>
+    <br/>
+
     </Container>
+
+
+    </div>
     
     
     </React.Fragment>
