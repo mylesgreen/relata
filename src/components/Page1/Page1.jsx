@@ -32,9 +32,10 @@ const About = () => {
                 <div className="row">
                   <div className="twelve col center text-center">
                   <h2 style={{fontWeight: '500', fontSize: '125%'}}>WHO WE <span className="gold">ARE</span></h2>
-                    <p className="arapey" style={{fontSize: '22px'}}><em><strong>We promote a relational way of living with each other</strong></em></p>
-                    <p className="gold">Relata is a digital media and marketing agency that builds peace and understanding, <br /> promotes dialogue, and realizes our interconnectedness for nonprofits, NGOs, houses of worship, entrepreneurs and small businesses.<br />
-                    </p><p className="arapey" style={{fontSize: '22px'}}><em><strong>We believe the digital space can create powerful and lasting change. </strong></em></p>
+                    <p className="arapey" style={{fontSize: '22px'}}><em><strong>We promote a relational understanding of the world</strong></em></p>
+                    <p className="gold">Relata is a digital media and marketing agency that builds peace and understanding, <br /> promotes 
+                    dialogue, and realizes our interconnectedness for nonprofits, NGOs, houses of worship, small businesses and  entrepreneurs<br />
+                    </p><p className="arapey" style={{fontSize: '22px'}}><em><strong>We believe the digital space can create powerful and lasting change.</strong></em></p>
                   </div>
                 </div>
                 <div className="at-below-post-homepage addthis_tool" data-url="" />
@@ -68,17 +69,17 @@ const About = () => {
                 <hr />
                 <div className="sub-service">
                   Account Management<br />
-                  All Post Writing + Designs<br />
-                  Calendars + Scheduling</div>
+                  All Post Writing & Designs<br />
+                  Calendars & Scheduling</div>
               </div>
               <div className="service">
                 <i class="fas fa-bullhorn"></i><p />
                 <h3 className="service-head">Social Advertising</h3>
                 <hr />
                 <div className="sub-service">
-                  Highlight a Key Message<br />
-                  Fundraisng Campaigns<br />
-                  Engage Toward Action
+                Highlight a Key Message <br/>
+                Fundraising Campaigns <br/>
+                Engage Toward Action
                 </div>
               </div>
               <div className="service">
@@ -151,7 +152,7 @@ const About = () => {
             </div>
             <div className="e-info">
               <h3>Erica</h3>
-              <p>Digital Specialist</p>
+              <p>Digital Coordinator</p>
             </div>
           </div>
           <div className="grid-ms">
@@ -162,7 +163,7 @@ const About = () => {
             </div>
             <div className="e-info">
               <h3>Tala</h3>
-              <p>Account Manager</p>
+              <p>Data Lead</p>
             </div>
           </div>
          
@@ -185,11 +186,11 @@ const About = () => {
                 <div className="overlay-item">
                   <span>
                   </span>
-                  <img src="https://relatacomm.files.wordpress.com/2020/08/david-smith-cfo.jpg" alt="David" className="lazyload responsive-img" />
+                  <img src="https://relatacomm.files.wordpress.com/2020/09/chris-data.png" alt="David" className="lazyload responsive-img" />
                 </div>
                 <div className="e-info">
-                  <h3>David</h3>
-                  <p>Chief Develoment Officer</p>
+                  <h3>Chris</h3>
+                  <p>Video & Graphics</p>
                 </div>
               </div>
               <div className="grid-ms">
