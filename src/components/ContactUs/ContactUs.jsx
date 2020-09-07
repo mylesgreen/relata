@@ -23,9 +23,10 @@ export default function ContactUs() {
 
 
   <div style={{
-    backgroundImage: 'url("https://relatacomm.files.wordpress.com/2020/09/background-w-symbol.png")',
+    backgroundImage: 'url("https://relatacomm.files.wordpress.com/2020/09/background-w-symbol-1.png")',
     backgroundPosition: 'center',
     marginBottom: '-2%',
+    height: '100vh',
   }}>
       
 
