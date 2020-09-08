@@ -171,12 +171,12 @@ const About = () => {
             <div className="overlay-item">
               <span>
               </span>
-              <img src="https://relatacomm.files.wordpress.com/2020/08/david-smith-cfo.jpg" alt="David" className="lazyload responsive-img" />
-            </div>
-            <div className="e-info">
-              <h3>David</h3>
-              <p>Chief Develoment Officer</p>
-            </div>
+              <img src="https://relatacomm.files.wordpress.com/2020/09/chris-data.png" alt="Chris" className="lazyload responsive-img" />
+              </div>
+              <div className="e-info">
+                <h3>Chris</h3>
+                <p>Video & Graphics</p>
+              </div>
           </div>
           <div className="grid-ms">
             <div className="overlay-item">

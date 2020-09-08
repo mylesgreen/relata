@@ -62,7 +62,8 @@ export default function ContactUs() {
             type="text" 
             name="user_name" 
             className="form-control" 
-            placeholder="Name"
+            placeholder="Name (required)"
+            required
           />
 
           
@@ -71,8 +72,9 @@ export default function ContactUs() {
             type="email" 
             name="user_email" 
             className="form-control" 
-            placeholder="Email"
+            placeholder="Email (required)"
             style={{marginLeft: '5%'}}
+            required
           />
           
           </div>
@@ -91,7 +93,7 @@ export default function ContactUs() {
             className="form-control" 
             name="message" 
             id="validationTextarea" 
-            placeholder="What are you trying to accomplish?" 
+            placeholder="What are you trying to accomplish? (required)" 
             required
           />
 
@@ -103,12 +105,7 @@ export default function ContactUs() {
         facilisis commodo. Donec elementum, tortor sit amet suscipit tempor, libero eros 
         tincidunt justo, ut fringilla sem augue et mi. Mauris odio nibh, imperdiet eu arcu 
         vitae, suscipit fringilla magna. Aliquam volutpat mi urna, vel euismod justo viverra 
-        vel. Ut consequat sapien sit amet placerat tempor. Vivamus molestie, lorem at rutrum 
-        elementum, quam leo ullamcorper velit, sit amet ultrices purus eros efficitur dolor. 
-        Suspendisse gravida neque non ex sagittis dignissim. Ut ac magna feugiat, efficitur 
-        lorem eu, ullamcorper diam. Aliquam erat volutpat. Ut sit amet lorem sit amet lorem 
-        porta vulputate. Donec pretium lacus sed commodo luctus. 
-      
+        vel. Ut consequat sapien sit amet placerat tempor. 
         </div>
     </div>
     <br/>

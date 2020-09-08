@@ -32,9 +32,9 @@ const About = () => {
                 <div className="row">
                   <div className="twelve col center text-center">
                   <h2 style={{fontWeight: '500', fontSize: '125%'}}>WHO WE <span className="gold">ARE</span></h2>
-                    <p className="arapey" style={{fontSize: '22px'}}><em><strong>We promote a relational understanding of the world</strong></em></p>
+                    <p className="arapey" style={{fontSize: '22px'}}><em><strong>We promote a relational understanding of the world.</strong></em></p>
                     <p className="gold">Relata is a digital media and marketing agency that builds peace and understanding, <br /> promotes 
-                    dialogue, and realizes our interconnectedness for nonprofits, NGOs, houses of worship, small businesses and  entrepreneurs<br />
+                    dialogue, and realizes our interconnectedness for nonprofits, NGOs, labor organizations, houses of worship, small businesses and  entrepreneurs.<br />
                     </p><p className="arapey" style={{fontSize: '22px'}}><em><strong>We believe the digital space can create powerful and lasting change.</strong></em></p>
                   </div>
                 </div>
@@ -73,32 +73,14 @@ const About = () => {
                   Calendars & Scheduling</div>
               </div>
               <div className="service">
-                <i class="fas fa-bullhorn"></i><p />
-                <h3 className="service-head">Social Advertising</h3>
+              <i class="fas fa-palette"></i><p />
+                <h3 className="service-head">Creative Direction</h3>
                 <hr />
                 <div className="sub-service">
-                Highlight a Key Message <br/>
-                Fundraising Campaigns <br/>
-                Engage Toward Action
+                Art direction & design <br/>
+                Video production<br/>
+                Branding style guides
                 </div>
-              </div>
-              <div className="service">
-                <i class="fas fa-user-graduate"></i><p />
-                <h3 className="service-head">Social Media Training</h3>
-                <hr />
-                <div className="sub-service">
-                Skill Up Your Team<br />
-                Facilitate More Content<br />
-                Customized Instructing <br />
-                </div>
-              </div>
-              <div className="service">
-               <i class="fas fa-search-dollar"></i><p />
-                <h3 className="service-head">Social Media Marketing</h3>
-                <hr />
-                <div className="sub-service">Organic Posting + Ads<br />
-                  Calendars + Scheduling<br />
-                  Post Writing &amp; Designs</div>
               </div>
               <div className="service">
               <i class="fas fa-podcast"></i>
@@ -107,8 +89,30 @@ const About = () => {
                 <h3 className="service-head">Live Stream Broadcasting</h3>
                 <hr />
                 <div className="sub-service">
-                Live shows and demonstrations<br/>
-                Simultaneous streams <br/>
+                Live Shows & Demos <br/>
+                Simultaneous Streams <br/>
+                Graphic Production
+                </div>
+              </div>
+              <div className="service">
+                <i class="fas fa-pencil-alt"></i><p />
+                <h3 className="service-head">Editorial services</h3>
+                <hr />
+                <div className="sub-service">
+                Writing & Revising<br/>
+                Feature Articles & Essays<br/>
+                Earned & Paid Media
+                </div>
+              </div>
+              <div className="service">
+              <i class="fas fa-bullhorn"></i>
+                <p />
+                <h3 className="service-head">Social Advertising</h3>
+                <hr />
+                <div className="sub-service">
+                Logos + Brand Guides<br/>
+                Highlight a Key Message<br/>
+                Fundraising Campaigns
                 </div>
               </div>
               </Fade>
@@ -186,7 +190,7 @@ const About = () => {
                 <div className="overlay-item">
                   <span>
                   </span>
-                  <img src="https://relatacomm.files.wordpress.com/2020/09/chris-data.png" alt="David" className="lazyload responsive-img" />
+                  <img src="https://relatacomm.files.wordpress.com/2020/09/chris-data.png" alt="Chris" className="lazyload responsive-img" />
                 </div>
                 <div className="e-info">
                   <h3>Chris</h3>
