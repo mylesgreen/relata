@@ -44,6 +44,18 @@ html {
         margin-top: 4px;
     }
 
+    #submit-btn{
+        background: #cda84b;
+        border-radius: 0;
+        border: 1px solid #cda84b;
+        color: #fff
+    }
+    #submit-btn:hover {
+    background: #fff !important;
+    border: 1px solid #cda84b;
+    color: #cda84b !important
+    }
+
     @media screen and (max-width: 600px) {
         .scroll-to-top-button {
             width: 40px;

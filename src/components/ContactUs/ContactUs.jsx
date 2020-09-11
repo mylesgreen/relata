@@ -16,8 +16,10 @@ export default function ContactUs() {
       }, (error) => {
           console.log(error.text);
       });
-  }
 
+      e.target.reset();
+      alert('Your message has been received! Thank you');
+  }
 
   //   emailjs.sendForm('gmail', 'template_mahgjpp', 'contact-form-id', 'user_6xcmgMLL8rmBV1NuDEh0e')
   //     .then((result) => {
@@ -125,7 +127,7 @@ export default function ContactUs() {
         </div>
     </div>
     <br/>
-    <input type="submit" value="Send" style={{marginLeft: '1.6%'}}/>
+    <input id="submit-btn" type="submit" value="Connect" style={{marginLeft: '1.6%'}}/>
     
     </form>
     <br/>
