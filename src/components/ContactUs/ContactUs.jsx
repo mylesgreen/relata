@@ -10,13 +10,22 @@ export default function ContactUs() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_ojvT6ulP', 'contact-form-id', 'user_HOHwzUZ9ZKm88Y5S2m9s0')
+    emailjs.sendForm('service_wmdyclw', 'template_relata_1', e.target, 'user_6xcmgMLL8rmBV1NuDEh0e')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
           console.log(error.text);
       });
   }
+
+
+  //   emailjs.sendForm('gmail', 'template_mahgjpp', 'contact-form-id', 'user_6xcmgMLL8rmBV1NuDEh0e')
+  //     .then((result) => {
+  //         console.log(result.text);
+  //     }, (error) => {
+  //         console.log(error.text);
+  //     });
+  // }
 
   return (
     <React.Fragment>
@@ -30,9 +39,9 @@ export default function ContactUs() {
   }}>
       
 
-  <div class="headline-no-image">
-  <div class="row">
-    <div class="twelve col">
+  <div className="headline-no-image">
+  <div className="row">
+    <div className="twelve col">
       <h1 style={{fontWeight: '500'}}>Contact</h1>
     </div>
   </div>
