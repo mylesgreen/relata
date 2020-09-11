@@ -52,9 +52,6 @@ const About = () => {
                     <p span style={{lineHeight: '20px'}}>Whether you’re a small SaaS start-up in the healthcare field or an NGO focused on alleviating poverty, we achieve digital marketing excellence with all of our clients. <br/>
                     It is our privilege to serve individuals, small businesses and organizations that want to make our world more peaceful, respectful and interconnected. Our experienced team will be happy to fulfill your needs in the digital space.
                     </p>
-                   
-                    <h3 style={{fontWeight: 'normal', color: '#77787b'}}>We’ll make the light of your mission <span style={{fontWeight: 'normal'}}><span className="gold">visible</span></span>.</h3>
-                    <p span style={{lineHeight: '20px'}}>We’re good at what we do, which matters to us because this is our calling, and just as much a ministry as a business. We will pray about the work we do for you, and think about your goals and mission outside of ‘working hours’ (likely getting great ideas at random times while driving in the car or taking a shower). Why? Because we love God, we love people, and we love making light visible in the world. Let us show you why we were chosen by Google to join their handful of chosen agencies worldwide, why we are award-winning, and most of all why you can trust us to highLIGHT what you do with excellence.</p>
                   
                 </div>
               </div>
