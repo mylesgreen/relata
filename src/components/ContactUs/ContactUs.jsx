@@ -99,17 +99,24 @@ export default function ContactUs() {
 
         </div>
         
-        <div className="col">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ut sagittis ipsum. 
-        Ut suscipit nisi quis turpis mattis auctor. Aenean faucibus libero lacinia justo 
-        facilisis commodo. Donec elementum, tortor sit amet suscipit tempor, libero eros 
-        tincidunt justo, ut fringilla sem augue et mi. Mauris odio nibh, imperdiet eu arcu 
-        vitae, suscipit fringilla magna. Aliquam volutpat mi urna, vel euismod justo viverra 
-        vel. Ut consequat sapien sit amet placerat tempor. 
+        <div className="col" style={{marginTop: '-1%', color: 'white'}}>
+        Our team is based out of major hubs along the US East Coast but we serve clients 
+        regardless of their location – national and international!
+
+        <br/>
+        <br/>
+        Send us a message with your business goals and someone from our team will get in 
+        touch with you shortly.
+        <br/>
+        <br/>
+
+        Let us show you why our approach to digital marketing and online presence will 
+        make the difference for you.
+
         </div>
     </div>
     <br/>
-    <input type="submit" value="Send" />
+    <input type="submit" value="Send" style={{marginLeft: '1.6%'}}/>
     
     </form>
     <br/>

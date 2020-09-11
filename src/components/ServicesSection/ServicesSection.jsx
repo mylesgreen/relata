@@ -44,13 +44,14 @@ const ServicesSection = () => {
 
             <div className="service"> {/* data-toggle="modal" data-target="#exampleModal" */}
 
-              <i class="fas fa-comments"></i><p />
-              <h3 className="service-head">Social Media Marketing</h3>
-              <hr />
-              <div className="sub-service">
-              Account Management<br />
-              All Post Writing + Designs<br />
-              Calendars + Scheduling</div>
+            <i class="fas fa-comments"></i><p />
+            <h3 className="service-head">Social Media Marketing</h3>
+            <hr />
+            <div className="sub-service">
+            Account Management<br/>
+            Post Writing & Designs<br/>
+            Calendars & Scheduling
+            </div>
               
             {/*   
               <p>
@@ -59,52 +60,41 @@ const ServicesSection = () => {
             */}
 
               </div>
-            <div className="service">
-            <i class="fas fa-podcast"></i><p />
-            <h3 className="service-head">Live Stream Broadcasting</h3>
-              <hr />
-              <div className="sub-service">
-              Live Shows & Demonstrations<br />
-              Simultaneous Streams <br />
-              Graphics & Content Production</div>
-              
-{/*           
-
-              <p>                
-                <a className="small-btn btn" href="/work/?tag=strategy">See Our Work</a>              
-              </p>
-*/}
-              
-              </div>
-            <div className="service">
-              <i class="fas fa-bullhorn"></i><p />
-              <h3 className="service-head">Social <br/>Advertising</h3>
-              <hr />
-              <div className="sub-service">Logos + Brand Guides<br />
-              Highlight a Key Message<br />
-              Fundraising Campaigns
-              </div>
-              
-              {/*   
-              <p>
-                <a className="small-btn btn" href="/work/">See Our Work</a>
-              </p>
-            */}
-              </div>
-            <div className="service">
+              <div className="service">
               <i class="fas fa-palette"></i><p />
-              <h3 className="service-head">Branding <br/>& Design</h3>
-              <hr />
-              <div className="sub-service">
-              Logos + Brand Guides<br />
-              Digital + Print Designs<br />
-              All Aspects of Graphic Design
+                <h3 className="service-head">Creative <br/>Direction</h3>
+                <hr />
+                <div className="sub-service">
+                Art direction & design <br/>
+                Video production<br/>
+                Branding style guides
+                </div>
               </div>
-              {/*   
-              <p>
-                <a className="small-btn btn" href="/work/">See Our Work</a>
-              </p>
-            */}</div>
+
+              <div className="service">
+                <i class="fas fa-pencil-alt"></i><p />
+                <h3 className="service-head">Editorial <br/>services</h3>
+                <hr />
+                <div className="sub-service">
+                Writing & Revising<br/>
+                Feature Articles & Essays<br/>
+                Earned & Paid Media
+                </div>
+              </div>
+
+
+              <div className="service">
+              <i class="fas fa-bullhorn"></i>
+                <p />
+                <h3 className="service-head">Social <br/>Advertising</h3>
+                <hr />
+                <div className="sub-service">
+                Logos + Brand Guides<br/>
+                Fundraising Campaigns<br/>
+                Highlight a Key Message
+                </div>
+              </div>
+
             <p /></div>
           <div className="row services-listing">
             <div className="service">
@@ -112,9 +102,10 @@ const ServicesSection = () => {
               <h3 className="service-head">Social Media Consultation</h3>
               <hr />
               <div className="sub-service">
-              Audit of All Social Channels<br />
-              Set Goals for Growth<br />
-              Understand Area of Opportunity</div>
+              Audit of Social Channels <br/>
+              Set Goals for Growth <br/>
+              Improve Areas of Opportunity
+              </div>
               {/*   
               <p>
                 <a className="small-btn btn" href="/work/">See Our Work</a>
@@ -125,37 +116,35 @@ const ServicesSection = () => {
             <h3 className="service-head">Social Media Training</h3>
               <hr />
               <div className="sub-service">
-              Skill Up Your Team<br />
-              Facilitate More Content<br />
-              Customized Instructing</div>
-              {/*   
-              <p>
-                <a className="small-btn btn" href="/work/">See Our Work</a>
-              </p>
-            */}</div>
-            <div className="service">
-             <i class="fas fa-pencil-alt"></i><p />
-              <h3 className="service-head">Ghostwriting<br />
-                Ads</h3>
-              <hr />
-              <div className="sub-service">
-              Writing, Research & Revising<br />
-              Feature Articles & Essays <br />
-              Publishing Consultancy
+              Empower Your Team <br/>
+              Customized Instruction <br/>
+              Platform and Goal-Specific
               </div>
               {/*   
               <p>
                 <a className="small-btn btn" href="/work/">See Our Work</a>
               </p>
             */}</div>
+            <div className="service">
+              <i class="fas fa-podcast"></i>
+                {/*  <img className="live-stream-icon" src="https://relatacomm.files.wordpress.com/2020/08/live-stream-broadcasting-blank.png"/> */}
+                <p />
+                <h3 className="service-head">Live Stream <br/> Broadcasting</h3>
+                <hr />
+                <div className="sub-service">
+                Live Shows & Demos <br/>
+                Simultaneous Streams <br/>
+                Graphic & Content Production
+                </div>
+              </div>
             <div className="service" style={{marginBottom: '12%'}}>
             <i class="fas fa-video"></i><p />
               <h3 className="service-head">Video & Motion Graphics</h3>
               <hr />
               <div className="sub-service">
-              Promotional Videos<br />
-              Footage & Animation<br />
-              Engaging Storytelling
+              Promotional Videos <br/>
+              Engaging Storytelling <br/>
+              Video & Animation
               </div>
               
               {/*   

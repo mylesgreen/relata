@@ -45,17 +45,22 @@ const About = () => {
                   
                 <div className="twelve col">
                   
-                    <h3 style={{fontWeight: 'normal', color: '#77787b'}}>Lorem ipsum dolor sit amet, <span style={{fontWeight: 'normal'}}> memento mori <span className="gold">IMPROVE</span></span>.</h3>
-                    <p span style={{lineHeight: '20px'}}>Everyday there are people and organizations all over the world who are illuminating their communities through the good work they do. Our job is to spread their light and make it visible through leveraging the power of modern marketing strategies. For over a decade, we have become a proven and trusted partner to Christian organizations as we seek to continually set the standard of marketing excellence for them, and illuminate the messages of Christ in the World.</p>
-                    <h3 span style={{fontWeight: 'normal', color: '#77787b'}}>We work with small budgets and <span style={{fontWeight: 'normal'}}><span className="gold">big hearts</span></span>.</h3>
-                    <p span style={{lineHeight: '20px'}}>Like many of our clients, we’re able to work with small budgets and big hearts. We understand it’s not always possible to build your internal marketing dream team, since the best messages are also often the most under-funded. That’s why it’s our privilege to serve those who are already serving, and provide our clients with the best quality marketing possible at a price they can afford. Our clients inspire us, by doing God’s work in the world and serving others. So, we help them inspire, and bring their mission to light.</p>
+                    <h3 style={{fontWeight: 'normal', color: '#77787b'}}>Digital excellence for individuals and organizations is our <span className="gold">PASSION</span>.</h3>
+                    <p span style={{lineHeight: '20px'}}>We depend on each other – and we flourish when we understand, see each other’s humanity and take actions to promote our mutual well-being. Relata is a digital media agency focused on building peace and understanding, promoting dialogue, and realizing our interconnectedness. We believe that digital connections can facilitate meaningful and lasting transformation for all our relations.</p>
+                   
+                    <h3 span style={{fontWeight: 'normal', color: '#77787b'}}>Your mission <span style={{fontWeight: 'normal'}}><span className="gold">MATTERS</span></span>.</h3>
+                    <p span style={{lineHeight: '20px'}}>Whether you’re a small SaaS start-up in the healthcare field or an NGO focused on alleviating poverty, we achieve digital marketing excellence with all of our clients. <br/>
+                    It is our privilege to serve individuals, small businesses and organizations that want to make our world more peaceful, respectful and interconnected. Our experienced team will be happy to fulfill your needs in the digital space.
+                    </p>
+                   
                     <h3 style={{fontWeight: 'normal', color: '#77787b'}}>We’ll make the light of your mission <span style={{fontWeight: 'normal'}}><span className="gold">visible</span></span>.</h3>
                     <p span style={{lineHeight: '20px'}}>We’re good at what we do, which matters to us because this is our calling, and just as much a ministry as a business. We will pray about the work we do for you, and think about your goals and mission outside of ‘working hours’ (likely getting great ideas at random times while driving in the car or taking a shower). Why? Because we love God, we love people, and we love making light visible in the world. Let us show you why we were chosen by Google to join their handful of chosen agencies worldwide, why we are award-winning, and most of all why you can trust us to highLIGHT what you do with excellence.</p>
-                  </div>
+                  
                 </div>
-                </div>
-                </div>
-                </div>
+              </div>
+            </div>
+          </div>
+        </div>
                 </section>
                 
                 
@@ -116,6 +121,7 @@ const About = () => {
 <div className="title" style={{textAlign: 'center'}}>
   <h2>The <span className="gold">Team</span></h2>
 </div>
+
 <Fade>
     <div className="grid-mt twelve col">
       <div className="grid-ms">
@@ -154,10 +160,9 @@ const About = () => {
      
      
      
-    </div>
+    </div> {/* first row ends */}
 
     </Fade>
-</div>
 
 
 
@@ -190,24 +195,21 @@ const About = () => {
             </div>
           </div>
          
-         
-         
+  
         </div>
 
-        </div> {/* Row 1 ends */}
-    
+        </div> {/* Row 2 ends */}
+
+
     <div className="col center text-center" style={{marginBottom: '3%'}}>
       <a href="/contact" className="btn team">Contact us</a>
     </div>
     
   </Fade>
 
-
-        
-
-
-
 </div>
+</div>
+
         
         </React.Fragment>
     );
