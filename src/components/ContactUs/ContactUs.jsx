@@ -100,7 +100,7 @@ export default function ContactUs() {
         </div>
         
         <div className="col" style={{marginTop: '-1%', color: 'white'}}>
-        Our team is based out of major hubs along the US East Coast but we serve clients 
+        Our team is based out of major hubs along the US East Coast but we serve clients
         regardless of their location – national and international!
 
         <br/>
