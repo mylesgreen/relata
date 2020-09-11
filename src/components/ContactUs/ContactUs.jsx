@@ -62,11 +62,12 @@ export default function ContactUs() {
 
 
 
+<Row>
+
 
     <form className="contact-form-class" id="contact-form-id" onSubmit={sendEmail}>
     
-    <div className="row">
-        <div className="col">
+        <div>
           <div style={{display: 'flex'}}>
           
           <input 
@@ -109,8 +110,11 @@ export default function ContactUs() {
           />
 
         </div>
-        
-        <div className="col" style={{marginTop: '-1%', color: 'white'}}>
+    <br/>
+    <input id="submit-btn" type="submit" value="Send"/>
+    </form>
+
+    <Col id="beside-contact-form" style={{marginTop: '-1%', color: 'white'}}>
         Our team is based out of major hubs along the US East Coast but we serve clients
         regardless of their location – national and international!
 
@@ -124,12 +128,8 @@ export default function ContactUs() {
         Let us show you why our approach to digital marketing and online presence will 
         make the difference for you.
 
-        </div>
-    </div>
-    <br/>
-    <input id="submit-btn" type="submit" value="Connect" style={{marginLeft: '1.6%'}}/>
-    
-    </form>
+        </Col>
+  </Row>
     <br/>
     <br/>
 

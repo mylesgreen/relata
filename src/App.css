@@ -44,16 +44,25 @@ html {
         margin-top: 4px;
     }
 
-    #submit-btn{
+    #submit-btn, #email-btn {
         background: #cda84b;
         border-radius: 0;
         border: 1px solid #cda84b;
         color: #fff
     }
-    #submit-btn:hover {
+    
+    #submit-btn:hover, #email-btn:hover {
     background: #fff !important;
     border: 1px solid #cda84b;
-    color: #cda84b !important
+    color: #cda84b !important;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s
+    }
+    #email-btn {
+        margin-top: 1%;
     }
 
     @media screen and (max-width: 600px) {
@@ -63,6 +72,13 @@ html {
             font-weight: normal;
             font-style: normal;
             font-size: 2em;
+        }
+
+        #beside-contact-form {
+            margin-top: 5% !important;
+        }
+        #section {
+            height: 115vh !important;
         }
     }
 /*Ends back to top button*/
