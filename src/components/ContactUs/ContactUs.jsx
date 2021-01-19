@@ -62,7 +62,7 @@ export default function ContactUs() {
 
 
 
-<Row>
+<Row className="contact-row">
 
 
     <form className="contact-form-class" id="contact-form-id" onSubmit={sendEmail}>
