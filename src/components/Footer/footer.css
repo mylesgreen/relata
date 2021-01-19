@@ -1,12 +1,9 @@
 .myFooter {
-    background: black;
+    background: rgba(0, 0, 0, .9) !important;
     color: white;
     width: 100%;
-    margin-top: 5%;
 }
 
 .myFooter .col {
-    padding: 5%
+    padding: 3%
 }
-
-

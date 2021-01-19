@@ -5,6 +5,18 @@ import './footer.css';
 
 
 const AppFooter = () => {
+
+    // const scrollToTop = () => {
+    //     $(window).scrollTop(0); 
+    // };
+
+    function scrollToTop() {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    }
+
     return (
         <React.Fragment>
 
@@ -21,13 +33,18 @@ const AppFooter = () => {
 
 
         <Col style={{textAlign: 'center'}}>
-        <p>© 2020 Relata LLC</p>
+            <p>© 2020 Relata LLC</p>
         </Col>
 
 
 
         <Col>
-            <br/>
+        <div style={{float: 'right'}}>
+        <div 
+        className='scroll-to-top-button' 
+        onClick={scrollToTop}
+        >&nbsp;<i class="fas fa-angle-up"></i> </div>
+        </div>
         </Col>
 
         </Row>
@@ -44,4 +61,3 @@ const AppFooter = () => {
 }
 
 export default AppFooter;
-

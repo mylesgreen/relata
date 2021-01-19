@@ -12,33 +12,33 @@ import $ from 'jquery';
 
 const App = () => {
 
-  return (
-    <React.Fragment>
-    <Navbar />
+return (
+  <React.Fragment>
+  <Navbar />
 
-      <Router>
+    <Router>
 
-        {/* //////////////////////////////////////////////////////////////////////// */}
-        <Switch>
-          <Route path="/" component={Home} exact />
-          <Route path="/services" component={ServicesSection} />
-          <Route path="/contact-us" component={ContactUs} />
-          <Route path="/about" component={About} />
+      {/* //////////////////////////////////////////////////////////////////////// */}
+      <Switch>
+        <Route path="/" component={Home} exact />
+        <Route path="/services" component={ServicesSection} />
+        <Route path="/contact" component={ContactUs} />
+        <Route path="/about" component={About} />
 
-          <Route render={() => <h2 style={{ paddingTop: '15%' }}>404 Page not found</h2>} />
+        <Route render={() => <h2 style={{ paddingTop: '15%' }}>404 Page not found</h2>} />
 
-        </Switch>
-        {/* //////////////////////////////////////////////////////////////////////// */}
+      </Switch>
+      {/* //////////////////////////////////////////////////////////////////////// */}
 
 
-      </Router>
+    </Router>
 
-      <br/>
+    <br/>
 
-      <Footer/>
+    <Footer/>
 
-    </React.Fragment>
-  );
+  </React.Fragment>
+);
 }
 
 export default App;

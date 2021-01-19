@@ -1,17 +1,88 @@
 @import url(https://fonts.googleapis.com/css?family=Courgette|Arapey:400italic,400);
-@import url(/wp-content/themes/luminate/js/grayscale/css/grayscale.css);
 
-
-
-.carousel-control-next-icon, 
-.carousel-control-prev-icon {
-    background-color: #cda84b;
+:root {
+    --blue: #007bff;
 }
 
-.carousel-caption h3 {
-    color: red;
-    margin-bottom: 40%;
+
+html {
+    scroll-behavior: smooth;
 }
+
+.grey-background {
+    background: red;
+}
+
+/*Back to top button*/
+.scroll-to-top-button {
+        width: 40px;
+        height: 35px;
+        text-align: center;
+        z-index: 1000;
+        background: #cda84b;
+        opacity: .7;
+        border-radius: 0;
+        /* border: 1px solid white; */
+        font-weight: normal;
+        font-style: normal;
+        font-size: 2em;
+        color: #fff;
+        transition: .5s;
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+    }
+
+      .scroll-to-top-button:hover {
+        cursor: pointer;
+        opacity: 1;
+    }
+
+    .fa, .far, .fas {
+        margin-right: 6px;
+        margin-top: 4px;
+    }
+
+    #submit-btn, #email-btn {
+        background: #cda84b;
+        border-radius: 0;
+        border: 1px solid #cda84b;
+        color: #fff
+    }
+    
+    #submit-btn:hover, #email-btn:hover {
+    background: #fff !important;
+    border: 1px solid #cda84b;
+    color: #cda84b !important;
+    -webkit-transition: all .2s;
+    -moz-transition: all .2s;
+    -ms-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s
+    }
+    #email-btn {
+        margin-top: 1%;
+    }
+
+    @media screen and (max-width: 600px) {
+        .scroll-to-top-button {
+            width: 40px;
+            height: 35px;
+            font-weight: normal;
+            font-style: normal;
+            font-size: 2em;
+        }
+
+        #beside-contact-form {
+            margin-top: 5% !important;
+        }
+        #section {
+            height: 115vh !important;
+        }
+    }
+/*Ends back to top button*/
+      
 
 .homepage-services .service i, 
 #servicesPage .service i {
@@ -28,14 +99,15 @@
     color: #cda84b;   
 }
 
-#section-team .row-2 {
-    margin: 0 16%;
+#section-team .row-2, /*team members*/
+#aboutPage .row-2 {
+  /*  margin: 0 16%; */
 }
 
 
 
-/*/////////////////////////////////////////////////////////////////////////*/
 
+/*//From original///////////////////////////////////////////////////////////////////////*/
 
 .alignright {
     float: right;
@@ -321,13 +393,15 @@ h6,
 .top-bar .header-social {
     margin-top: 10px;
     margin-right: 12px;
-    text-align: right
+    text-align: right;
+    margin-bottom: -1%; /*added*/
 }
 .top-bar .header-social a {
     color: #fff;
     font-size: 18px;
-    padding: 10px
+    padding: 10px;
 }
+
 .top-bar .header-social a:hover {
     color: #cda84b
 }
@@ -998,14 +1072,14 @@ input[type=submit]:hover,
 .overlay-item:hover .o-hover:hover + img {
     border-color: #cda84b
 }
-.overlay-item:hover img {
+.overlay-item:hover img { /*team member*/
     filter: none;
     -webkit-filter: none;
     -webkit-transition: all .6s ease;
     -webkit-backface-visibility: hidden;
     z-index: 9999
 }
-.overlay-item:hover img:hover {
+.overlay-item:hover img:hover { /*team member*/
     border-color: #cda84b
 }
 a.small-btn {
@@ -1052,7 +1126,7 @@ span.wpcf7-list-item {
 .service:hover .icon {
     color: #cda84b
 }
-#wpcf7-f3731-o1 input {
+/* #wpcf7-f3731-o1 input {
     width: 100%;
     margin-top: 10px;
     padding: 10px 8px
@@ -1064,7 +1138,7 @@ span.wpcf7-list-item {
 #wpcf7-f3731-o1 textarea {
     width: 100%;
     margin-top: 10px
-}
+} */
 .overlay-item {
     z-index: 9
 }
@@ -1452,7 +1526,8 @@ blockquote {
     max-width: 33%;
 }
 
-#section-team .row-2 .grid-ms {
+#section-team .row-2 .grid-ms,
+#aboutPage .row-2 .grid-ms {
     flex-basis: 33%;
     min-width: 50%;
     max-width: 10%;
@@ -4925,7 +5000,9 @@ img {
 .responsive-img {
     max-width: 100%;
     height: auto;
-    vertical-align: bottom
+    vertical-align: bottom;
+    filter: grayscale(100%); /*team member*/
+    -webkit-filter: grayscale(100%);
 }
 .circle-img {
     -webkit-border-radius: 50%;
@@ -6095,6 +6172,7 @@ a {
 a:hover {
     color: #111
 }
+
 a,
 a i,
 button,

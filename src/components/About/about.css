@@ -1,0 +1,11 @@
+.row-2-fix {
+    justify-content: space-around;
+    padding: 0 250px
+}
+
+
+@media only screen and (max-width:1150px) {
+    .row-2-fix {
+        padding: 0;
+    }
+}
