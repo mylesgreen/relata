@@ -73,7 +73,7 @@ export default function ContactUs() {
           <input 
             type="text" 
             name="user_name" 
-            className="form-control" 
+            className="form-control form-name" 
             placeholder="Name (required)"
             required
           />
@@ -83,7 +83,7 @@ export default function ContactUs() {
           <input 
             type="email" 
             name="user_email" 
-            className="form-control" 
+            className="form-control form-email" 
             placeholder="Email (required)"
             style={{marginLeft: '5%'}}
             required

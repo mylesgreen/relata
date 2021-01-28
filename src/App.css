@@ -4,14 +4,15 @@
     --blue: #007bff;
 }
 
-
 html {
     scroll-behavior: smooth;
 }
 
-.grey-background {
-    background: red;
-}
+@-moz-document url-prefix() {
+    .form-email {
+        max-width: 45%;
+    }
+  }
 
 /*Back to top button*/
 .scroll-to-top-button {
