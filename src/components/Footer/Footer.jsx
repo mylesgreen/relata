@@ -33,7 +33,7 @@ const AppFooter = () => {
 
 
         <Col style={{textAlign: 'center'}}>
-            <p>© 2020 Relata LLC</p>
+            <p>© 2021 Relata LLC</p>
         </Col>
 
 
