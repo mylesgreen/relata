@@ -146,7 +146,7 @@ const About = () => {
                 <div className="overlay-item">
                   <span></span>
                   <img
-                    src="https://alfredorafael.com/wp-content/uploads/2019/03/circlePicture.png"
+                    src="https://rmrdetailing.com/wp-content/uploads/2021/10/Screen-Shot-2021-10-07-at-3.02.36-PM.png"
                     alt="Alfredo R. Pabon"
                     className="lazyload responsive-img"
                   />
