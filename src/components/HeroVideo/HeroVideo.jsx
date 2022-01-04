@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
-
+import React, { useState, useEffect } from "react";
 
 const HeroVideo = () => {
-
-    return (
-      <React.Fragment>
-
-    <div className="fullscreen-video-wrap" dangerouslySetInnerHTML={{ __html: `
+  return (
+    <React.Fragment>
+      <div
+        className="fullscreen-video-wrap"
+        dangerouslySetInnerHTML={{
+          __html: `
 
         <video
           style="opacity: 1;"
@@ -26,19 +26,17 @@ const HeroVideo = () => {
         Your browser does not support the video tag. I suggest you upgrade your browser.
 
         </video>     
-` }}>
-</div>
-
-    
-      </React.Fragment>
-    );
-}
-
+`,
+        }}
+      ></div>
+    </React.Fragment>
+  );
+};
 
 export default HeroVideo;
 
-
-{/* 
+{
+  /* 
 
     <div style={{background: 'black'}}>
       <section id="default-version-splash" class="home splash videoWrapper video" style={{opacity: '.5', background: 'black'}}>
@@ -51,10 +49,11 @@ export default HeroVideo;
     </section>
     </div>
 
-*/}
+*/
+}
 
-
-{/* 
+{
+  /* 
 
 
       <div dangerouslySetInnerHTML={{ __html: `
@@ -75,4 +74,5 @@ export default HeroVideo;
   ` }}
   />
 
-*/}
+*/
+}
