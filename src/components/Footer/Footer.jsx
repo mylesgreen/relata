@@ -1,63 +1,41 @@
-import React from 'react';
-import { Col, Row, Container } from 'react-bootstrap';
-import { StyledFooter } from './StyledFooter';
-import './footer.css';
-
+import React from "react";
+import { Col, Row, Container } from "react-bootstrap";
+import { StyledFooter } from "./StyledFooter";
+import "./footer.css";
 
 const AppFooter = () => {
+  // const scrollToTop = () => {
+  //     $(window).scrollTop(0);
+  // };
 
-    // const scrollToTop = () => {
-    //     $(window).scrollTop(0); 
-    // };
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  }
 
-    function scrollToTop() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
-    }
-
-    return (
-        <React.Fragment>
-
-        
-
-
-        <Row className="myFooter">
-        
-        
+  return (
+    <React.Fragment>
+      <Row className="myFooter">
         <Col>
-            <br/>
+          <br />
         </Col>
 
-
-
-        <Col style={{textAlign: 'center'}}>
-            <p>© 2021 Relata LLC</p>
+        <Col style={{ textAlign: "center" }}>
+          <p>© 2022 Relata LLC</p>
         </Col>
-
-
 
         <Col>
-        <div style={{float: 'right'}}>
-        <div 
-        className='scroll-to-top-button' 
-        onClick={scrollToTop}
-        >&nbsp;<i class="fas fa-angle-up"></i> </div>
-        </div>
+          <div style={{ float: "right" }}>
+            <div className="scroll-to-top-button" onClick={scrollToTop}>
+              &nbsp;<i class="fas fa-angle-up"></i>{" "}
+            </div>
+          </div>
         </Col>
-
-        </Row>
-
-
-        
-        
-
-    
-    
-       
-        </React.Fragment>
-    )
-}
+      </Row>
+    </React.Fragment>
+  );
+};
 
 export default AppFooter;
