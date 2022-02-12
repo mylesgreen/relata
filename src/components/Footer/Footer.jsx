@@ -1,13 +1,8 @@
 import React from "react";
-import { Col, Row, Container } from "react-bootstrap";
-import { StyledFooter } from "./StyledFooter";
+import { Col, Row } from "react-bootstrap";
 import "./footer.css";
 
 const AppFooter = () => {
-  // const scrollToTop = () => {
-  //     $(window).scrollTop(0);
-  // };
-
   function scrollToTop() {
     window.scrollTo({
       top: 0,
@@ -23,7 +18,7 @@ const AppFooter = () => {
         </Col>
 
         <Col style={{ textAlign: "center" }}>
-          <p>© 2022 Relata LLC</p>
+          <p>© {new Date().getFullYear()} Relata LLC</p>
         </Col>
 
         <Col>
