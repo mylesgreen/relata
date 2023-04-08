@@ -18,7 +18,7 @@ const AppFooter = () => {
         </Col>
 
         <Col style={{ textAlign: "center" }}>
-          <p>© {new Date().getFullYear()} Relata LLC</p>
+          <p>©{new Date().getFullYear()} Relata LLC</p>
         </Col>
 
         <Col>
