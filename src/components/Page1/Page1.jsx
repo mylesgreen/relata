@@ -188,7 +188,7 @@ const About = () => {
               <div className="overlay-item">
                 <span></span>
                 <img
-                  src="http://www.alfredorafael.com/wp-content/uploads/2019/03/low-resolution-profpicture-e1552988654192.png"
+                  src="http://www.alfredorafael.com/wp-content/uploads/2019/03/circlePicture-e1552960951861.png"
                   alt="Alfredo R. Pabon"
                   className="lazyload responsive-img alfredo"
                 />
