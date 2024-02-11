@@ -5,11 +5,6 @@ import Footer from "../Footer/Footer";
 import "./about.css";
 
 const About = () => {
-  const message = () => {
-    return alert(
-      "I feel bad about stealing the whole design on these people :( "
-    );
-  };
   return (
     <React.Fragment>
       <div id="aboutPage">
@@ -43,8 +38,6 @@ const About = () => {
                       <span className="gold">Do</span>
                     </h2>
                   </div>
-
-                  {/*       <button onClick={message}>Click me</button> */}
 
                   <p>&nbsp;</p>
                   <div className="row">
