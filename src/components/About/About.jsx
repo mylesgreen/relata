@@ -50,11 +50,11 @@ const About = () => {
                         We depend on each other – and we flourish when we
                         understand, see each other’s humanity and take actions
                         to promote our mutual well-being. Relata is a digital
-                        media agency focused on building peace and
-                        understanding, promoting dialogue, and realizing our
-                        interconnectedness. We believe that digital connections
-                        can facilitate meaningful and lasting transformation for
-                        all our relations.
+                        media agency that provides creative marketing, digital
+                        organizing services and cloud computing technical
+                        support for a variety of organizations. We believe that
+                        digital connections can facilitate meaningful and
+                        lasting transformation for all our relations.
                       </p>
 
                       <h3
@@ -68,15 +68,14 @@ const About = () => {
                         .
                       </h3>
                       <p span style={{ lineHeight: "20px" }}>
-                        Whether you’re a small SaaS start-up in the healthcare
-                        field or an NGO focused on alleviating poverty, we
-                        achieve digital marketing excellence with all of our
-                        clients. <br />
-                        It is our privilege to serve individuals, small
-                        businesses and organizations that want to make our world
-                        more peaceful, respectful and interconnected. Our
-                        experienced team will be happy to fulfill your needs in
-                        the digital space.
+                        Whether you manage a SaaS start-up or NGO focused on
+                        alleviating poverty, we achieve digital organizing,
+                        marketing and cloud computing technical support
+                        excellence with all of our clients. <br /> It is our
+                        privilege to serve individuals, small businesses and
+                        organizations that want to make our world more peaceful,
+                        respectful and interconnected. Our experienced team will
+                        be happy to fulfill your needs in the digital space.
                       </p>
                     </div>
                   </div>

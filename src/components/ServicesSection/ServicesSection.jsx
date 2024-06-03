@@ -88,23 +88,24 @@ const ServicesSection = () => {
                 <div className="service">
                   <i class="fas fa-people-arrows"></i>
                   <p />
-                  <h3 className="service-head">Social Media Consultation</h3>
+                  <h3 className="service-head">
+                    CLOUD <br />
+                    MANAGEMENT
+                  </h3>
                   <hr />
                   <div className="sub-service">
-                    Audit of Social Channels <br />
-                    Set Goals for Growth <br />
-                    Improve Areas of Opportunity
+                    Management of Cloud Computing Products, Including Storage,
+                    Email and Messaging
                   </div>
                 </div>
                 <div className="service">
                   <i class="fas fa-user-graduate"></i>
                   <p />
-                  <h3 className="service-head">Social Media Training</h3>
+                  <h3 className="service-head">DIGITAL ORGANIZING TRAINING</h3>
                   <hr />
                   <div className="sub-service">
-                    Empower Your Team <br />
-                    Customized Instruction <br />
-                    Platform and Goal-Specific
+                    Distribute the Power of Digital Media Tools to a Wider
+                    Audience
                   </div>
                 </div>
                 <div className="service">
@@ -112,13 +113,12 @@ const ServicesSection = () => {
 
                   <p />
                   <h3 className="service-head">
-                    Live Stream <br /> Broadcasting
+                    P2P AND <br />
+                    BLAST SMS
                   </h3>
                   <hr />
                   <div className="sub-service">
-                    Live Shows & Demos <br />
-                    Simultaneous Streams <br />
-                    Graphic & Content Production
+                    Leverage the Power of SMS with Peer-to-Peer and Blast Texts
                   </div>
                 </div>
                 <div className="service" style={{ marginBottom: "12%" }}>

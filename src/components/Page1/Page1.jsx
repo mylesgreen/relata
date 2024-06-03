@@ -1,10 +1,7 @@
 import React from "react";
 import "./page1.css";
-import { Container } from "reactstrap";
 import Fade from "react-reveal/Fade";
 import HeroVideo from "../HeroVideo";
-import QuotesCarousel from "../QuotesCarousel";
-import Footer from "../Footer/Footer";
 
 const About = () => {
   return (
@@ -25,9 +22,7 @@ const About = () => {
                   className="at-above-post-homepage addthis_tool"
                   data-url=""
                 />
-                {/*  <div className="row title">
-                <h2>WHO WE <span className="gold">ARE</span></h2>
-              </div> */}
+
                 <div className="row">
                   <div className="twelve col center text-center">
                     <h2 style={{ fontWeight: "500", fontSize: "125%" }}>
@@ -41,11 +36,10 @@ const About = () => {
                       </em>
                     </p>
                     <p className="gold">
-                      Relata is a digital media and marketing agency that builds
-                      peace and understanding, <br /> promotes dialogue, and
-                      realizes our interconnectedness for nonprofits, NGOs,
-                      labor organizations, houses of worship, small businesses
-                      and entrepreneurs.
+                      Relata is a digital media agency that provides creative
+                      marketing, <br /> digital organizing services, and cloud
+                      computing technical support for nonprofits, labor groups,
+                      NGOs, and small to medium-sized businesses.
                       <br />
                     </p>
                     <p className="arapey" style={{ fontSize: "22px" }}>
