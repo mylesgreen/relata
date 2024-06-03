@@ -107,12 +107,14 @@ const About = () => {
                     <i class="fas fa-podcast"></i>
                     {/*  <img className="live-stream-icon" src="https://relatacomm.files.wordpress.com/2020/08/live-stream-broadcasting-blank.png"/> */}
                     <p />
-                    <h3 className="service-head">Live Stream Broadcasting</h3>
+                    <h3 className="service-head">
+                      P2P AND <br />
+                      BLAST SMS
+                    </h3>
                     <hr />
                     <div className="sub-service">
-                      Live Shows & Demos <br />
-                      Simultaneous Streams <br />
-                      Graphic Production
+                      Leverage the Power of SMS with Peer-to-Peer and Blast
+                      Texts
                     </div>
                   </div>
                   <div className="service">
