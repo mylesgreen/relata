@@ -1,13 +1,10 @@
-import React, { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
-import './navbar.css';
-import $ from 'jquery';
-
+import React from "react";
+import "./navbar.css";
+import $ from "jquery";
 
 const NavigationBar = () => {
-
   // window.onscroll = function() {scrollFunction()};
-  
+
   // function scrollFunction() {
   //   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
   //     document.querySelector(".top-bar").style.paddingRight = "15px";
@@ -18,8 +15,7 @@ const NavigationBar = () => {
   //     document.querySelector(".menu-item-about").style.fontSize = "16px";
   //     document.querySelector(".menu-item-services").style.fontSize = "16px";
   //     document.querySelector(".top-bar").style.maxHeigth = "50px";
-  
-  
+
   //   } else {
   //     document.querySelector(".top-bar").style.paddingRight = "25px";
   //     document.querySelector(".top-bar").style.paddingLeft = "25px";
@@ -30,34 +26,54 @@ const NavigationBar = () => {
   //     document.querySelector("#logo").style.maxHeigth = "80px";
   //   }
   // }
-  
-      return (
-        <React.Fragment>
-  
-          <div id="top" />
-          {/* Start(ish) of Navbar */}
-          <div className="top-bar tb-large tb-transp" id="navbar" style={{transition: '.5s'}}>
-            <div className="tb-logo">
-              <a href="/" >
-                <img 
-                 src="https://relatacomm.files.wordpress.com/2020/08/logo_and_text.png" 
-                 alt="logo" 
-                 id="logo"
-                 style={{transition: '.5s'}}
-                 /></a>
-            </div>
-            <input type="checkbox" id="toggle" />
-            <label htmlFor="toggle" className="toggle" />
-            <div className="nav-social">
-              <nav className="menu">
-                <ul className="nav navbar-right navbar-nav">
-                <li><a className="menu-item-contact" href="/">Home</a></li>
-                  <li><a className="menu-item-about" href="/about">About</a></li>
-                  <li><a className="menu-item-services" href="/services">Services</a></li>
-                  <li><a className="menu-item-contact" href="/contact">Contact</a></li>
-                </ul>
-              </nav>
-              {/* 
+
+  return (
+    <React.Fragment>
+      <div id="top" />
+      {/* Start(ish) of Navbar */}
+      <div
+        className="top-bar tb-large tb-transp"
+        id="navbar"
+        style={{ transition: ".5s" }}
+      >
+        <div className="tb-logo">
+          <a href="/">
+            <img
+              src="https://relatacomm.wordpress.com/wp-content/uploads/2020/08/logo_and_text.png"
+              alt="logo"
+              id="logo"
+              style={{ transition: ".5s" }}
+            />
+          </a>
+        </div>
+        <input type="checkbox" id="toggle" />
+        <label htmlFor="toggle" className="toggle" />
+        <div className="nav-social">
+          <nav className="menu">
+            <ul className="nav navbar-right navbar-nav">
+              <li>
+                <a className="menu-item-contact" href="/">
+                  Home
+                </a>
+              </li>
+              <li>
+                <a className="menu-item-about" href="/about">
+                  About
+                </a>
+              </li>
+              <li>
+                <a className="menu-item-services" href="/services">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a className="menu-item-contact" href="/contact">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>
+          {/* 
               <div className="header-social">
                 <a href="https://www.instagram.com/relatadigital/" target="_blank"><i className="fa fa-instagram" /></a>
                 <a href="https://www.facebook.com/RelataDigital" target="_blank"><i className="fa fa-facebook" /></a>
@@ -66,14 +82,10 @@ const NavigationBar = () => {
                 <a href="https://www.youtube.com/watch?v=_uk_6vfqwTA&t=1m16s" target="_blank"><i className="fa fa-vimeo-square" /></a>
             </div>
              */}
-            </div>
-          </div>
-  
-  
-  
-        </React.Fragment>
-      );
-  }
-  
-  
-  export default NavigationBar;
+        </div>
+      </div>
+    </React.Fragment>
+  );
+};
+
+export default NavigationBar;

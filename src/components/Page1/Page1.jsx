@@ -198,7 +198,7 @@ const About = () => {
               <div className="overlay-item">
                 <span></span>
                 <img
-                  src="https://relatacomm.files.wordpress.com/2020/08/erica-digital-specialist.png"
+                  src="https://relatacomm.wordpress.com/wp-content/uploads/2020/08/erica-digital-specialist.png"
                   alt="Erica"
                   className="lazyload responsive-img"
                 />
@@ -212,7 +212,7 @@ const About = () => {
               <div className="overlay-item">
                 <span></span>
                 <img
-                  src="https://relatacomm.files.wordpress.com/2020/08/tala-account-manager.png"
+                  src="https://relatacomm.wordpress.com/wp-content/uploads/2020/08/tala-account-manager.png"
                   alt="Tala"
                   className="lazyload responsive-img"
                 />
@@ -232,7 +232,7 @@ const About = () => {
                 <div className="overlay-item">
                   <span></span>
                   <img
-                    src="https://relatacomm.files.wordpress.com/2020/09/chris-data.png"
+                    src="https://relatacomm.wordpress.com/wp-content/uploads/2020/09/chris-data.png"
                     alt="Chris"
                     className="lazyload responsive-img"
                   />
@@ -246,7 +246,7 @@ const About = () => {
                 <div className="overlay-item">
                   <span></span>
                   <img
-                    src="https://relatacomm.files.wordpress.com/2020/08/myles.jpg"
+                    src="https://relatacomm.wordpress.com/wp-content/uploads/2020/08/myles.jpg"
                     alt="Myles"
                     className="lazyload responsive-img"
                   />
