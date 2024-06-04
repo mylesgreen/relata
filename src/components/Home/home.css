@@ -1,24 +1,32 @@
-.home {
-    color: red !important;
+.row-2-fix {
+  justify-content: space-around;
+  padding: 0 250px;
 }
 
+@media only screen and (max-width: 770px) {
+  .grid-mt {
+    flex-direction: column;
+    padding: 0 auto;
+    align-items: center;
+  }
+  .row-2-fix {
+    padding: -5px 0 0 0;
+  }
+}
 
 /*/////////////////// MEDIA QUERIES START /////////////////////////////////*/
 
 /*iPhone 5*/
 @media (device-height: 568px) and (device-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
-	
 }
 
 /*Galaxy 5s*/
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
-	
 }
 
 /*Samsung Galaxy S9 Media Queries (In terms of Mobile only)*/
 
 @media only screen and (min-width: 360px) and (max-width: 767px) {
-
 }
 
 /*iPhone XR*/
