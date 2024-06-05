@@ -47,7 +47,7 @@ export default function ContactUs() {
       >
         <div className="headline-no-image">
           <div className="row">
-            <div className="twelve col">
+            <div className="twelve col" style={{ marginLeft: "-1.7em" }}>
               <h1 style={{ fontWeight: "500" }}>Contact</h1>
             </div>
           </div>
