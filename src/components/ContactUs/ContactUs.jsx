@@ -1,8 +1,6 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import $ from "jquery";
 import emailjs from "emailjs-com";
-import { Label } from "reactstrap";
 
 export default function ContactUs() {
   function sendEmail(e) {
@@ -41,7 +39,7 @@ export default function ContactUs() {
       <div
         style={{
           backgroundImage:
-            'url("https://relatacomm.files.wordpress.com/2020/09/background-w-symbol-1.png")',
+            'url("https://relatacomm.wordpress.com/wp-content/uploads/2020/09/background-w-symbol-1.png")',
           backgroundPosition: "center",
           marginBottom: "-2%",
           height: "100vh",
