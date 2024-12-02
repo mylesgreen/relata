@@ -37,9 +37,9 @@ const Home = () => {
                     </p>
                     <p className="gold">
                       Relata is a digital media agency that provides creative
-                      marketing, <br /> digital organizing services, and cloud
-                      computing technical support for nonprofits, labor groups,
-                      NGOs, and small to medium-sized businesses.
+                      marketing, <br /> digital media production, and cloud
+                      computing technical support for corporations, <br />
+                      nonprofit organizations, NGOs, and beyonds.
                       <br />
                     </p>
                     <p className="arapey" style={{ fontSize: "22px" }}>
@@ -108,13 +108,13 @@ const Home = () => {
                     {/*  <img className="live-stream-icon" src="https://relatacomm.files.wordpress.com/2020/08/live-stream-broadcasting-blank.png"/> */}
                     <p />
                     <h3 className="service-head">
-                      P2P AND <br />
-                      BLAST SMS
+                      PODCAST <br />
+                      PRODUCTION
                     </h3>
                     <hr />
                     <div className="sub-service">
-                      Leverage the Power of SMS with Peer-to-Peer and Blast
-                      Texts
+                      Full Editing, Mixing and Distribution Services for Audio
+                      and Video Podcasts
                     </div>
                   </div>
                   <div className="service">

@@ -101,11 +101,13 @@ const ServicesSection = () => {
                 <div className="service">
                   <i class="fas fa-user-graduate"></i>
                   <p />
-                  <h3 className="service-head">DIGITAL ORGANIZING TRAINING</h3>
+                  <h3 className="service-head">
+                    SPOKESPERSON <br /> TRAINING
+                  </h3>
                   <hr />
                   <div className="sub-service">
-                    Distribute the Power of Digital Media Tools to a Wider
-                    Audience
+                    Develop Your Online Presence and Personality for Enhanced
+                    Brand Recognition
                   </div>
                 </div>
                 <div className="service">
@@ -113,12 +115,13 @@ const ServicesSection = () => {
 
                   <p />
                   <h3 className="service-head">
-                    P2P AND <br />
-                    BLAST SMS
+                    PODCAST <br />
+                    PRODUCTION
                   </h3>
                   <hr />
                   <div className="sub-service">
-                    Leverage the Power of SMS with Peer-to-Peer and Blast Texts
+                    Full Editing, Mixing and Distribution Services for Audio and
+                    Video Podcasts
                   </div>
                 </div>
                 <div className="service" style={{ marginBottom: "12%" }}>
