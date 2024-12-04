@@ -39,7 +39,7 @@ const Home = () => {
                       Relata is a digital media agency that provides creative
                       marketing, <br /> digital media production, and cloud
                       computing technical support for corporations, <br />
-                      nonprofit organizations, NGOs, and beyonds.
+                      nonprofit organizations, NGOs, and beyond.
                       <br />
                     </p>
                     <p className="arapey" style={{ fontSize: "22px" }}>
