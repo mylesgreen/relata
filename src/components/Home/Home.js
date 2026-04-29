@@ -6,7 +6,7 @@ import "./home.css";
 const Home = () => {
   return (
     <React.Fragment id="home">
-      <HeroVideo />
+      {/* <HeroVideo /> 
 
       <section
         className="lazyload padding-top-normal padding-bottom-normal  section-type-column"
@@ -105,7 +105,6 @@ const Home = () => {
                   </div>
                   <div className="service">
                     <i class="fas fa-podcast"></i>
-                    {/*  <img className="live-stream-icon" src="https://relatacomm.files.wordpress.com/2020/08/live-stream-broadcasting-blank.png"/> */}
                     <p />
                     <h3 className="service-head">
                       PODCAST <br />
@@ -149,20 +148,12 @@ const Home = () => {
               <a className="small-btn btn" href="/services">
                 View All
               </a>
-              <p>
-                {/* AddThis Advanced Settings above via filter on the_content */}
-                {/* AddThis Advanced Settings below via filter on the_content */}
-                {/* AddThis Advanced Settings generic via filter on the_content */}
-                {/* AddThis Share Buttons above via filter on the_content */}
-                {/* AddThis Share Buttons below via filter on the_content */}
-              </p>
+
               <div
                 className="at-below-post-homepage addthis_tool"
                 data-url="https://www.relata.us/"
               />
-              <p>
-                {/* AddThis Share Buttons generic via filter on the_content */}
-              </p>
+              
             </div>
           </div>
         </div>
@@ -257,12 +248,10 @@ const Home = () => {
                 </div>
               </div>
 
-              {/*
-          
-        */}
+            
             </div>
-          </div>{" "}
-          {/* Row 2 ends */}
+          </div>
+         
           <div
             className="col center text-center"
             style={{ marginBottom: "3%" }}
@@ -272,7 +261,7 @@ const Home = () => {
             </a>
           </div>
         </Fade>
-      </section>
+      </section> */}
     </React.Fragment>
   );
 };
