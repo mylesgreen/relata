@@ -14,7 +14,7 @@ const App = () => {
     <React.Fragment>
       {/* <Navbar /> */}
 
-      <div style={{ height: "70vh", width: "100vw" }}>
+      <div style={{ height: "100vh", width: "100vw" }}>
         <h2 style={{ paddingTop: "15%", textAlign: "center" }}>Coming Soon</h2>
       </div>
       <Router>
