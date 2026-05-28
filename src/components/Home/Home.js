@@ -6,7 +6,7 @@ import "./home.css";
 const Home = () => {
   return (
     <React.Fragment id="home">
-      <HeroVideo /> 
+      <HeroVideo />
 
       <section
         className="lazyload padding-top-normal padding-bottom-normal  section-type-column"
@@ -153,7 +153,6 @@ const Home = () => {
                 className="at-below-post-homepage addthis_tool"
                 data-url="https://www.relata.us/"
               />
-              
             </div>
           </div>
         </div>
@@ -247,11 +246,9 @@ const Home = () => {
                   <p>Digital Lead</p>
                 </div>
               </div>
-
-            
             </div>
           </div>
-         
+
           <div
             className="col center text-center"
             style={{ marginBottom: "3%" }}
@@ -261,7 +258,7 @@ const Home = () => {
             </a>
           </div>
         </Fade>
-      </section> */}
+      </section>
     </React.Fragment>
   );
 };
