@@ -6,7 +6,7 @@ import "./home.css";
 const Home = () => {
   return (
     <React.Fragment id="home">
-      {/* <HeroVideo /> 
+      <HeroVideo /> 
 
       <section
         className="lazyload padding-top-normal padding-bottom-normal  section-type-column"

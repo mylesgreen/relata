@@ -12,11 +12,11 @@ import $ from "jquery";
 const App = () => {
   return (
     <React.Fragment>
-      {/* <Navbar /> */}
+      <Navbar />
 
-      <div style={{ height: "100vh", width: "100vw" }}>
+      {/* <div style={{ height: "100vh", width: "100vw" }}>
         <h2 style={{ paddingTop: "15%", textAlign: "center" }}>Coming Soon</h2>
-      </div>
+      </div> */}
       <Router>
         {/* //////////////////////////////////////////////////////////////////////// */}
         <Switch>
