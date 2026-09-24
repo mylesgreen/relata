@@ -39,9 +39,8 @@ export default function ContactUs({ embedded = false }) {
       <div
         className={embedded ? "contact-us contact-us--embedded" : "contact-us"}
         style={{
-          backgroundImage: embedded
-            ? "none"
-            : 'url("https://relatacomm.wordpress.com/wp-content/uploads/2020/09/background-w-symbol-1.png")',
+          backgroundImage:
+            'url("https://relatacomm.wordpress.com/wp-content/uploads/2020/09/background-w-symbol-1.png")',
           backgroundPosition: "center",
           marginBottom: embedded ? 0 : "-2%",
           minHeight: embedded ? 0 : "100vh",
