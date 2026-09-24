@@ -1,5 +1,7 @@
 import React from "react";
 import HeroVideo from "../HeroVideo/HeroVideo";
+import ContactUs from "../ContactUs/ContactUs";
+import Footer from "../Footer/Footer";
 import Fade from "react-reveal/Fade";
 import "./home.css";
 
@@ -78,6 +80,19 @@ const Home = () => {
               <div className="at-above-post-homepage addthis_tool" />
               <div className="row  homepage-services">
                 <Fade>
+                  <div className="service" style={{ marginBottom: "12%" }}>
+                    <i class="fas fa-video"></i>
+                    <p />
+                    <h3 className="service-head">
+                      Video <br /> Production
+                    </h3>
+                    <hr />
+                    <div className="sub-service">
+                      Promo Videos <br />
+                      Social Media Videos <br />
+                      Evergreen Videos
+                    </div>
+                  </div>
                   <div className="service">
                     <i class="fas fa-comments"></i>
                     <p />
@@ -116,19 +131,7 @@ const Home = () => {
                       and Video Podcasts
                     </div>
                   </div>
-                  <div className="service">
-                    <i class="fas fa-pencil-alt"></i>
-                    <p />
-                    <h3 className="service-head">Editorial services</h3>
-                    <hr />
-                    <div className="sub-service">
-                      Writing & Revising
-                      <br />
-                      Feature Articles & Essays
-                      <br />
-                      Earned & Paid Media
-                    </div>
-                  </div>
+
                   <div className="service">
                     <i class="fas fa-bullhorn"></i>
                     <p />
@@ -158,7 +161,7 @@ const Home = () => {
         </div>
       </section>
 
-      <section
+      {/* <section
         className="bg-img fixed padding-top-normal padding-bottom-large  bg-image-cover section-type-about row-1"
         id="section-team"
         style={{ backgroundColor: "#fff" }}
@@ -258,7 +261,12 @@ const Home = () => {
             </a>
           </div>
         </Fade>
+      </section> */}
+
+      <section id="section-contact">
+        <ContactUs embedded />
       </section>
+      <Footer></Footer>
     </React.Fragment>
   );
 };

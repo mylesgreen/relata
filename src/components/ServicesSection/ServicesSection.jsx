@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../Footer/Footer";
 import "./servicesSection.css";
 
 const ServicesSection = () => {
@@ -13,10 +14,23 @@ const ServicesSection = () => {
           </div>
         </div>
 
-        <div className="twelve columns col">
+        <div className="twelve columns col" style={{ marginBottom: "6%" }}>
           <div className="row">
             <div className="twelve col">
               <div className="row services-listing">
+                <div className="service" style={{ marginBottom: "12%" }}>
+                  <i class="fas fa-video"></i>
+                  <p />
+                  <h3 className="service-head">
+                    Video <br /> Production
+                  </h3>
+                  <hr />
+                  <div className="sub-service">
+                    Promo Videos <br />
+                    Social Media Videos <br />
+                    Evergreen Videos
+                  </div>
+                </div>
                 <div className="service">
                   {" "}
                   {/* data-toggle="modal" data-target="#exampleModal" */}
@@ -65,23 +79,6 @@ const ServicesSection = () => {
                   </div>
                 </div>
 
-                <div className="service">
-                  <i class="fas fa-bullhorn"></i>
-                  <p />
-                  <h3 className="service-head">
-                    Social <br />
-                    Advertising
-                  </h3>
-                  <hr />
-                  <div className="sub-service">
-                    Logos + Brand Guides
-                    <br />
-                    Fundraising Campaigns
-                    <br />
-                    Highlight a Key Message
-                  </div>
-                </div>
-
                 <p />
               </div>
               <div className="row services-listing">
@@ -124,15 +121,20 @@ const ServicesSection = () => {
                     Video Podcasts
                   </div>
                 </div>
-                <div className="service" style={{ marginBottom: "12%" }}>
-                  <i class="fas fa-video"></i>
+                <div className="service">
+                  <i class="fas fa-bullhorn"></i>
                   <p />
-                  <h3 className="service-head">Video & Motion Graphics</h3>
+                  <h3 className="service-head">
+                    Social <br />
+                    Advertising
+                  </h3>
                   <hr />
                   <div className="sub-service">
-                    Promotional Videos <br />
-                    Engaging Storytelling <br />
-                    Video & Animation
+                    Logos + Brand Guides
+                    <br />
+                    Fundraising Campaigns
+                    <br />
+                    Highlight a Key Message
                   </div>
                 </div>
                 <p />
@@ -141,54 +143,8 @@ const ServicesSection = () => {
             </div>
           </div>
         </div>
-
-        <div>
-          <div
-            className="modal fade"
-            id="exampleModal"
-            tabIndex={-1}
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-          >
-            <div className="modal-dialog modal-lg">
-              <div className="modal-content">
-                <div className="modal-header">
-                  <h5 className="modal-title" id="exampleModalLabel">
-                    Customizable Modal Here
-                  </h5>
-                  <button
-                    type="button"
-                    className="close"
-                    data-dismiss="modal"
-                    aria-label="Close"
-                  >
-                    <span aria-hidden="true">×</span>
-                  </button>
-                </div>
-                <div className="modal-body">
-                  <p style={{ fontSize: "120%" }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Pellentesque fermentum ligula vitae dolor aliquet, maximus
-                    egestas dolor blandit. Duis dictum enim vitae tellus
-                    elementum, id luctus dolor sodales. Cras viverra egestas
-                    nisl in pellentesque. Nulla molestie nulla quis nibh
-                    commodo, vel egestas ipsum tempus. Cras justo turpis,
-                    sodales non nisl vel, blandit efficitur nisi. Vivamus at
-                    purus eget tellus ullamcorper aliquam et ut lacus.
-                    Pellentesque fermentum ligula vitae dolor aliquet, maximus
-                    egestas dolor blandit. Duis dictum enim vitae tellus
-                    elementum, id luctus dolor sodales. Cras viverra egestas
-                    nisl in pellentesque. Nulla molestie nulla quis nibh
-                    commodo, vel egestas ipsum tempus. Cras justo turpis,
-                    sodales non nisl vel, blandit efficitur nisi.
-                  </p>
-                </div>
-                <div className="modal-footer"></div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
+      <Footer />
     </React.Fragment>
   );
 };

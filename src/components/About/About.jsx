@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "reactstrap";
 import Fade from "react-reveal/Fade";
 import Footer from "../Footer/Footer";
+import ContactUs from "../ContactUs/ContactUs";
 import "./about.css";
 
 const About = () => {
@@ -126,13 +127,13 @@ const About = () => {
        
   */}
 
-          <div className="title" style={{ textAlign: "center" }}>
+          {/* <div className="title" style={{ textAlign: "center" }}>
             <h2>
               The <span className="gold">Team</span>
             </h2>
-          </div>
+          </div> */}
 
-          <Fade>
+          {/* <Fade>
             <div className="grid-mt twelve col">
               <div className="grid-ms">
                 <div className="overlay-item">
@@ -176,11 +177,11 @@ const About = () => {
                   <p>Account Manager</p>
                 </div>
               </div>
-            </div>{" "}
-            {/* first row ends */}
-          </Fade>
+            </div>{" "} */}
+          {/* first row ends */}
+          {/* </Fade> */}
 
-          <Fade>
+          {/* <Fade>
             <div className="row-2">
               <div className="grid-mt col row-2-fix" style={{}}>
                 <div className="grid-ms">
@@ -212,9 +213,9 @@ const About = () => {
                   </div>
                 </div>
               </div>
-            </div>{" "}
-            {/* Row 2 ends */}
-            <div
+            </div>{" "} */}
+          {/* Row 2 ends */}
+          {/* <div
               className="col center text-center"
               style={{ marginBottom: "3%" }}
             >
@@ -222,9 +223,13 @@ const About = () => {
                 Contact us
               </a>
             </div>
-          </Fade>
+          {/* </Fade> */}
         </div>
       </div>
+      <section id="section-contact">
+        <ContactUs embedded />
+      </section>
+      <Footer></Footer>
     </React.Fragment>
   );
 };

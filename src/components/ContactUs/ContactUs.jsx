@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import emailjs from "emailjs-com";
 
-export default function ContactUs() {
+export default function ContactUs({ embedded = false }) {
   function sendEmail(e) {
     e.preventDefault();
 
@@ -11,7 +11,7 @@ export default function ContactUs() {
         "service_wmdyclw",
         "template_relata_1",
         e.target,
-        "user_6xcmgMLL8rmBV1NuDEh0e"
+        "user_6xcmgMLL8rmBV1NuDEh0e",
       )
       .then(
         (result) => {
@@ -19,7 +19,7 @@ export default function ContactUs() {
         },
         (error) => {
           console.log(error.text);
-        }
+        },
       );
 
     e.target.reset();
@@ -37,26 +37,35 @@ export default function ContactUs() {
   return (
     <React.Fragment>
       <div
+        className={embedded ? "contact-us contact-us--embedded" : "contact-us"}
         style={{
-          backgroundImage:
-            'url("https://relatacomm.wordpress.com/wp-content/uploads/2020/09/background-w-symbol-1.png")',
+          backgroundImage: embedded
+            ? "none"
+            : 'url("https://relatacomm.wordpress.com/wp-content/uploads/2020/09/background-w-symbol-1.png")',
           backgroundPosition: "center",
-          marginBottom: "-2%",
-          height: "100vh",
+          marginBottom: embedded ? 0 : "-2%",
+          minHeight: embedded ? 0 : "100vh",
         }}
       >
-        <div className="headline-no-image">
-          <div className="row">
-            <div className="twelve col" style={{ marginLeft: "-1.7em" }}>
-              <h1 style={{ fontWeight: "500" }}>Contact</h1>
+        {!embedded && (
+          <div className="headline-no-image">
+            <div className="row">
+              <div className="twelve col" style={{ marginLeft: "-1.7em" }}>
+                <h1 style={{ fontWeight: "500" }}>Contact</h1>
+              </div>
             </div>
           </div>
-        </div>
+        )}
 
-        <Container>
+        <Container
+          style={{
+            // border: embedded ? "5px solid red" : "5px solid blue",
+            padding: embedded ? "3rem 0" : "0",
+          }}
+        >
           <div
             className="title padding-bottom-none"
-            style={{ marginTop: "5%" }}
+            style={{ marginTop: embedded ? 0 : "5%" }}
           >
             <h2>
               <span className="gold">Let's get in touch</span>
@@ -110,12 +119,17 @@ export default function ContactUs() {
                 />
               </div>
               <br />
-              <input id="submit-btn" type="submit" value="Send" />
+              <input
+                id="submit-btn"
+                type="submit"
+                value="Send"
+                style={{ marginBottom: "1rem" }}
+              />
             </form>
 
             <Col
               id="beside-contact-form"
-              style={{ marginTop: "-1%", color: "white" }}
+              style={{ marginTop: "-1%", color: "white", fontSize: "125%" }}
             >
               Our team is based out of major hubs along the US East Coast but we
               serve clients regardless of their location – national and
@@ -130,8 +144,6 @@ export default function ContactUs() {
               presence will make the difference for you.
             </Col>
           </Row>
-          <br />
-          <br />
         </Container>
       </div>
     </React.Fragment>
