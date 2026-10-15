@@ -44,18 +44,23 @@ const About = () => {
                   <div className="row">
                     <div className="twelve col">
                       <h3 style={{ fontWeight: "normal", color: "#77787b" }}>
-                        Digital excellence for individuals and organizations is
-                        our <span className="gold">PASSION</span>.
+                        Digital connection for meaningful change is our our{" "}
+                        <span className="gold">PASSION</span>.
                       </h3>
                       <p span style={{ lineHeight: "20px" }}>
                         We depend on each other – and we flourish when we
-                        understand, see each other’s humanity and take actions
-                        to promote our mutual well-being. Relata is a digital
-                        media agency that provides creative marketing, digital
-                        organizing services and cloud computing technical
-                        support for a variety of organizations. We believe that
-                        digital connections can facilitate meaningful and
-                        lasting transformation for all our relations.
+                        understand one another, recognize each other’s humanity,
+                        and take action to promote our collective well-being.
+                        <br />
+                        <br />
+                        Relata is a strategic communications and digital media
+                        agency that helps mission-driven organizations turn
+                        their values into meaningful connections and lasting
+                        impact. Through communications strategy, storytelling,
+                        digital organizing, creative production, and technical
+                        support, we help our clients build stronger
+                        relationships with the people and communities they
+                        serve.
                       </p>
 
                       <h3

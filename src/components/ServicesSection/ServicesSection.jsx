@@ -66,16 +66,16 @@ const ServicesSection = () => {
                   <i class="fas fa-pencil-alt"></i>
                   <p />
                   <h3 className="service-head">
-                    Editorial <br />
-                    services
+                    Communications <br />
+                    Strategy
                   </h3>
                   <hr />
                   <div className="sub-service">
-                    Writing & Revising
+                    Content Strategy
                     <br />
-                    Feature Articles & Essays
+                    Messaging Development
                     <br />
-                    Earned & Paid Media
+                    Comms Workflow Design
                   </div>
                 </div>
 

@@ -107,15 +107,19 @@ const Home = () => {
                     </div>
                   </div>
                   <div className="service">
-                    <i class="fas fa-palette"></i>
+                    <i class="fas fa-pencil-alt"></i>
                     <p />
-                    <h3 className="service-head">Creative Direction</h3>
+                    <h3 className="service-head">
+                      Communications <br />
+                      Strategy
+                    </h3>
                     <hr />
                     <div className="sub-service">
-                      Art direction & design <br />
-                      Video production
+                      Content Strategy
                       <br />
-                      Branding style guides
+                      Messaging Development
+                      <br />
+                      Comms Workflow Design
                     </div>
                   </div>
                   <div className="service">
