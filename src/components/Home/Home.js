@@ -37,12 +37,17 @@ const Home = () => {
                         </strong>
                       </em>
                     </p>
-                    <p className="gold">
-                      Relata is a digital media agency that provides creative
-                      marketing, <br /> digital media production, and cloud
-                      computing technical support for corporations, <br />
-                      nonprofit organizations, NGOs, and beyond.
-                      <br />
+                    <p
+                      className="gold"
+                      style={{
+                        maxWidth: "550px",
+                        margin: "0 auto 1.2rem auto",
+                      }}
+                    >
+                      Relata is a strategic communications and digital media
+                      agency partnering with mission-driven organizations to
+                      turn their values into meaningful connections and lasting
+                      change.
                     </p>
                     <p className="arapey" style={{ fontSize: "22px" }}>
                       <em>
